@@ -7,7 +7,7 @@ const express = require('express');
 const PORT = 8000;
 const HOST = '0.0.0.0';
 
-
+const fs = require('fs');
 const app = express();
 const path = require('path');
 
@@ -46,6 +46,19 @@ app.get('/projects', function(req, res) {
 app.get('/contact-info', function(req, res) {
   res.render('pages/contact-info');
 });
+
+
+//aboutme.txt
+app.get('/text-content', function(req, res) {
+  fs.readFile('public/textfiles/aboutme.txt', 'utf8', function(err, data) {
+    if (err) throw err;
+    let output = data.replace(/(?:\r\n|\r|\n)/g, '<br>');
+    res.send(output);
+});
+});
+
+
+
 
 app.listen(PORT, HOST, () => {
   console.log(`Running on http://${HOST}:${PORT}`);

@@ -8,17 +8,24 @@
       color: #8A2BE2;
     }
     </style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: '/text-content',
+            success: function(data) {
+                $("#text-file-content").html(data);
+            }
+        });
+    });
+</script>
+
 </head>
-
-
-
 
 <body class="container">
 
-<!-- <header>
-  <%- include('../partials/header'); %>
-</header> -->
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <header>
   <%- include('../partials/header', {variant: 'compact'}); %>
@@ -29,9 +36,7 @@
   <div class="col-sm-12">
     <div class="jumbotron">
       <h1>About me</h1>
-      <!-- <p>Welcome to templating using EJS</p> -->
-      <p class="subhead">Once upon a time in a faraway land...<p>
-    </div>
+        <p class="subhead" id="text-file-content"></p>
   </div>
 
 
