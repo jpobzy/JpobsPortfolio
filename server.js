@@ -4,7 +4,7 @@
 const express = require('express');
 
 // Constants
-const PORT = 8080;
+const PORT = 8000;
 const HOST = '0.0.0.0';
 
 
@@ -32,31 +32,20 @@ app.get('/', function(req, res) {
 });
 
 // about page
+app.use(express.static(__dirname + '/public'));
 app.get('/about', function(req, res) {
   res.render('pages/about');
 });
 
-// app.listen(8080);
-// console.log('Server is listening on port 8080');
+// projects page
+app.get('/projects', function(req, res) {
+  res.render('pages/projects');
+});
 
-
-  
-// App
-// const app = express();
-// const path = require('path');
-
-// app.set('view engine', 'ejs');
-// app.set('views', path.join(__dirname, 'views'));
-
-// // index page
-// app.get('/', function(req, res) {
-//     res.render('pages/index');
-//   });
-  
-// // about page
-// app.get('/about', function(req, res) {
-//     res.render('pages/about');
-// });
+//contact info page
+app.get('/contact-info', function(req, res) {
+  res.render('pages/contact-info');
+});
 
 app.listen(PORT, HOST, () => {
   console.log(`Running on http://${HOST}:${PORT}`);
