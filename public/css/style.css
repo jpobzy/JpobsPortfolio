@@ -1,25 +1,5 @@
-body {
-    background: rgb(238, 241, 238);
-}
 
-header {
-    /* default style for header */
-    background-color: #ff5050;
-}
-  
-
-.nav-link {
-    /* default style for nav links */
-    background-color: #e2e2d7;
-  }
-  
 .nav-link:hover {
 /* change style when nav link is hovered over */
-background-color: #f5d5d5;
+background-color: #e0defa;
 }
-  
-
-.subhead::first-letter {
-    initial-letter: 2;
-  }
-  

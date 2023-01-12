@@ -17,10 +17,12 @@ app.set('views', path.join(__dirname, 'views'));
 // use res.render to load up an ejs view file
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.static('images'));
+app.use(express.static('public'));
 
 // index page
 app.get('/', function(req, res) {
-  // res.render('pages/test');
+  // res.render('pages/index2');
   res.render('pages/index');
 });
 
@@ -35,6 +37,12 @@ app.get('/text-content', function(req, res) {
 });
 
 
+//for resume pdf in header nav link
+app.get('/pdf', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'inline');
+  res.sendFile(__dirname + '/public/pdfs/resume.pdf');
+});
 
 
 app.listen(PORT, HOST, () => {
