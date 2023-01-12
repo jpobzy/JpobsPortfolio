@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joey's Eportfolio</title>
+  
+  <!-- CSS (load bootstrap from a CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <meta charset="UTF-8">
+  <title>Joey's Eportfolio</title>
+
+  <!-- CSS (load bootstrap from a CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/f50db56413.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          $.ajax({
+              url: '/text-content',
+              success: function(data) {
+                  $("#text-file-content").html(data);
+              }
+          });
+      });
+  </script>
+
+  <script src="./actions.js" defer></script>
+
+
+</head>
+
+<body class="container">
+    <!-- <script src="/public/javascripts/button.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  
+  <header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/">Joeys Eportfolio</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./resume.pdf" target="_blank">Resume'</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+
+      
+      <script>
+      const navLinks = document.querySelectorAll('.nav-link');
+      
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === '#aboutme') {
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            const aboutmeSection = document.getElementById('aboutme');
+            aboutmeSection.scrollIntoView({
+              behavior: 'smooth',
+              block: 'nearest'
+            });
+          });
+        }
+        
+        else if (link.getAttribute('href') === '#projects') {
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            const aboutmeSection = document.getElementById('projects');
+            aboutmeSection.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          });
+        }
+      
+      });
+      
+      </script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </header>
+  <main>
+  <section>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="jumbotron">
+        <h1 id="aboutme">About me</h1>
+          <p class="subhead" id="text-file-content"></p>
+    </div>
+  </div>
+  </section>
+  
+  <section>  
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="jumbotron">
+          <h1 id="projects">Projects</h1>
+          
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>        <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>        <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>        <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+          <p>dasdsadasd</p>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  </main>
+  
+  
+  
+  
+  
+
+  <button id="scroll-to-top-button">Back to top</button>
+
+    <div class="icons">
+    
+    <footer>
+    <a href='https://github.com/jpobzy'>
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-regular fa-envelope"></i>
+    </a>
+    </div>
+      
+
+      <p class="text-center text-muted">&copy; Copyright 2023 Joey Poblete</p>
+    </footer>
+  </body>
+  </html>
