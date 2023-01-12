@@ -1,1 +1,14 @@
+
+    <button id="scroll-to-top-button">Back to top</button>
+    <script>
+      const button = document.getElementById('scroll-to-top-button');
+      button.addEventListener('click', event => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    </script>
+  
+
 <p class="text-center text-muted">&copy; Copyright 2023 Joey Poblete</p>
