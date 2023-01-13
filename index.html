@@ -3,114 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <title>Joey's Eportfolio</title>
-  
-  <!-- CSS (load bootstrap from a CDN) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-
-  <meta charset="UTF-8">
-  <title>Joey's Eportfolio</title>
-
-  <!-- CSS (load bootstrap from a CDN) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   
   <script src="https://kit.fontawesome.com/f50db56413.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-      $(document).ready(function() {
-          $.ajax({
-              url: '/text-content',
-              success: function(data) {
-                  $("#text-file-content").html(data);
-              }
-          });
-      });
-  </script>
-
   <script src="./actions.js" defer></script>
   
 </head>
 
-<body class="container">
-    <!-- <script src="/public/javascripts/button.js"></script> -->
+<body class="new-body">
+
+    <div class="new-header">
+      <a class="home-link" href="#my-section">Home</a>
+      <a class="about-link" onclick="scrollToAboutMe()" >About</a>
+      <a class="projects-link" href="#projects">Projects</a>
+      <a class="resume-link" href="./resume.pdf" target="_blank">Resume'</a>
+    </div>
     
-  
-    <div class="header-container">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="/">Joeys Eportfolio</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutme">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./resume.pdf" target="_blank">Resume'</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      
-
-      
-      <script>
-      const navLinks = document.querySelectorAll('.nav-link');
-      
-      navLinks.forEach(link => {
-        if (link.getAttribute('href') === '#aboutme') {
-          link.addEventListener('click', event => {
-            event.preventDefault();
-            const aboutmeSection = document.getElementById('aboutme');
-            aboutmeSection.scrollIntoView({
-              behavior: 'smooth',
-              block: 'nearest'
-            });
-          });
-        }
-        
-        else if (link.getAttribute('href') === '#projects') {
-          link.addEventListener('click', event => {
-            event.preventDefault();
-            const aboutmeSection = document.getElementById('projects');
-            aboutmeSection.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
-            });
-          });
-        }
-      
-      });
-      
-      </script>
-    </div>
 
 
-  <div class="my-section">
-    <h1>Hi, my name is</h1>
+
+  <div class="name">
+    <h1>Joey Poblete</h1>
   </div>
   
-
-
-
-  <section>
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="jumbotron">
-        <h1 id="aboutme">About me</h1>
-          <p class="subhead" id="text-file-content"></p>
-    </div>
+  <div class="description">
+    <p1>I'm a <span class="highlight">Backend Software Engineer</span> and <span class="highlight">video game enthusiast</span> with a passion for web development</p1>
   </div>
-  </section>
+
+  <div class="icons2">
+    <a href='https://github.com/jpobzy'>
+      <i class="fa-brands fa-github fa-icon"></i>
+    </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-brands fa-linkedin fa-icon"></i>
+    </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-regular fa-envelope fa-icon"></i>
+    </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-solid fa-down fa-icon"></i>
+    </a>
+  </div>
+
+
+  <section class="arrow-down">
+    <a onclick="scrollToAboutMe()">
+      <i class="fa-solid fa-arrow-down"></i>
+  </a>
   
-  <section>  
+</section>
+
+
+
+
+
+
+  
+<section class="aboutmesection gray-section" id="aboutmesection">
+  <div class="gray-box" id="aboutme">
+    <h class="aboutme-title">About me</h>  
+    </div>
+</section>
+
+
+
+
+  
+
+
+  <!-- <section>  
     <div class="row">
       <div class="col-sm-12">
         <div class="jumbotron">
@@ -147,7 +108,7 @@
       </div>
     </div>
   </section>
-  
+   -->
 
   
 
@@ -157,11 +118,12 @@
   
   
 
-  <button id="scroll-to-top-button">Back to top</button>
+  
 
-    <div class="icons">
     
-    <footer>
+    <footer class="footer">
+      <button id="scroll-to-top-btn">Scroll to top</button>   
+    <div class="icons">
     <a href='https://github.com/jpobzy'>
       <i class="fa-brands fa-github"></i>
     </a>
@@ -171,8 +133,13 @@
     <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
       <i class="fa-regular fa-envelope"></i>
     </a>
+    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
+      <i class="fa-solid fa-down"></i>
+    </a>
+
+    
     </div>
-      <p class="text-center text-muted">&copy; Copyright 2023 Joey Poblete</p>
+      <p class="copy">&copy; Copyright 2023 Joey Poblete</p>
     </footer>
   </body>
   </html>

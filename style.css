@@ -1,13 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 
-body { padding-top:50px; }
-
-.subhead::first-letter {
-  font-size: 200%;
-  color: #8A2BE2;
+.new-header{ /*home, about, project, resume*/
+    text-align: center;
+    font-size: 170% !important;
 }
 
 
-.fa-brands{
+.home-link{
+    color: rgb(34, 15, 15);
+    text-decoration:none;
+}
+
+.about-link{
+    color: blue;
+    text-decoration:none;
+    cursor: pointer;
+}
+.projects-link{
+    color: blue;
+    text-decoration:none;
+    cursor: pointer;
+
+}
+.resume-link{
+    color: blue;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+
+
+
+  
+.name h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 700% !important;
+    color: rgb(108, 108, 250);
+    /* transform:translateX(-50px); */
+}
+
+.p1{
+    text-align: center;
+    color: red;
+}  
+.highlight {
+    color: rgb(23, 194, 123);
+}
+
+.description{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 125%;
+   /* transform:translateX(-50px);   */
+}
+
+
+
+.arrow-down{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 400px;
+}
+
+.arrow-down a {
+    cursor: pointer;
+}
+
+
+
+
+.gray-section{
+    background-color: gray;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  
+.gray-section * {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+  
+  
+
+
+.aboutme-title {
+    position: relative;
+    top: 100px; /* adjust value as needed */
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    }
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+/* .aboutmesection p{
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 500px;
+    color: blue;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons2{ /* for top of page icons*/
+    text-align: center;
+    font-size: 70%;
+    margin-top: -40px;
+}
+
+:top-icon{
+    --main-color: blue;
+}
+
+.fa-brands.fa-github.fa-icon {
+    color: var(--main-color);
+  }
+  
+.fa-brands.fa-linkedin.fa-icon{
+    color: var(--main-color);
+}  
+
+.fa-regular.fa-envelope.fa-icon{
+    color: var(--main-color); 
+} /* end of top of page icons*/
+
+
+
+
+
+#scroll-to-top-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.footer{
+    text-align: center;
+}
+
+
+
+.fa-brands{ /* for footer icons */
     font-size: 300% !important;
 }
 
@@ -15,14 +194,20 @@ body { padding-top:50px; }
     font-size: 300% !important;
 }
 
+.fa-solid{
+    font-size: 300% !important;  
+}
 .icons{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.my-section {
+.copy{ 
     text-align: center;
-    margin-top: 50px;
-    font-size: 333.5rem;
-  }
-  
+}/* end of footer icons*/
+
+
+
+
+
+
