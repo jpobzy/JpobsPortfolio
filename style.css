@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     }
+  
+
 
 .new-header{ /*home, about, project, resume*/
     text-align: center;
@@ -13,28 +16,32 @@
 .home-link{
     color: rgb(34, 15, 15);
     text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about-link{
+    margin-left: 10px;
+    margin-right: 10px;
     color: blue;
     text-decoration:none;
     cursor: pointer;
 }
 .projects-link{
+    margin-left: 10px;
+    margin-right: 10px;
     color: blue;
     text-decoration:none;
     cursor: pointer;
 
 }
 .resume-link{
+    margin-left: 10px;
+    margin-right: 10px;
     color: blue;
     text-decoration:none;
     cursor: pointer;
 }
-
-
-
-
   
 .name h1{
     text-align: center;
@@ -44,21 +51,23 @@
     /* transform:translateX(-50px); */
 }
 
-.p1{
-    text-align: center;
-    color: red;
-}  
+
 .highlight {
     color: rgb(23, 194, 123);
 }
 
-.description{
+.description {
+    max-width: 500px;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 50px;
     font-size: 125%;
-   /* transform:translateX(-50px);   */
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
 }
+
 
 
 
@@ -77,7 +86,7 @@
 
 
 .gray-section{
-    background-color: gray;
+    background-color: rgb(85, 84, 84);
     width: 100vw;
     height: 500px;
     text-align: center;
@@ -96,44 +105,89 @@
 
 .aboutme-title {
     position: relative;
-    top: 100px; /* adjust value as needed */
+    top: 100px; 
     font-size: 50px;
     color: white;
     text-align: center;
     }
     
 
+.aboutme-details{
+    position: relative;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    color: rgb(187, 180, 180);
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+.projects-section{
+    position: relative;
+    height: 2000px;
+    background-color: rgb(255, 235, 235);
+
+}
+
+#projects-title{
+    top: 100px; 
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(155, 61, 61);
+    display: block;
+}
 
 
   
-
-
-
-
-/* .aboutmesection p{
-    text-align: center;
-    margin-left: 600px;
-    margin-right: 500px;
-    color: blue;
-    display: inline-block;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+.projects-section img {
+    max-width: 800px; 
+    max-height: 700px;
 }
-   */
+
+.projects-section p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
 
 
 
+#autograder-div {
+    text-align: center;
+    margin-top: 180px; 
+}
+
+h {
+    font-size: 40px;
+    display: block;
+}
 
 
+#discordbot-div {
+    text-align: center;
+    margin-top: 100px; 
+}
 
-
-
+.discordbot-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 
@@ -176,8 +230,11 @@
 
 
 #scroll-to-top-btn {
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
+    cursor: pointer;
+    color: var(--icon-color);
 }
   
 .footer{
@@ -185,25 +242,33 @@
 }
 
 
-
+:root {
+    --icon-color: rgb(83, 83, 83);
+  }
+  
 .fa-brands{ /* for footer icons */
     font-size: 300% !important;
+    color: var(--icon-color);
 }
 
 .fa-regular{
     font-size: 300% !important;
+    color: var(--icon-color);
 }
 
 .fa-solid{
     font-size: 300% !important;  
+    color: var(--icon-color);
 }
 .icons{
     text-align: center;
     margin-bottom: 20px;
+    color: var(--icon-color);
 }
 
 .copy{ 
     text-align: center;
+    color: var(--icon-color);
 }/* end of footer icons*/
 
 

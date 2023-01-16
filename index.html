@@ -14,9 +14,9 @@
 
     <div class="new-header">
       <a class="home-link" href="#my-section">Home</a>
-      <a class="about-link" onclick="scrollToAboutMe()" >About</a>
-      <a class="projects-link" href="#projects">Projects</a>
-      <a class="resume-link" href="./resume.pdf" target="_blank">Resume'</a>
+      <a class="about-link scroll-link" href="#aboutmesection">About</a>
+      <a class="projects-link" href="#projects" >Projects</a>
+      <a class="resume-link" href="./resume.pdf" target="_blank">R&eacute;sum&eacute;</a>
     </div>
     
 
@@ -47,11 +47,11 @@
 
 
   <section class="arrow-down">
-    <a onclick="scrollToAboutMe()">
-      <i class="fa-solid fa-arrow-down"></i>
-  </a>
-  
+    <a href="#aboutmesection">
+      <i class="fa-solid fa-angle-down"></i>
+    </a>
 </section>
+
 
 
 
@@ -62,56 +62,34 @@
 <section class="aboutmesection gray-section" id="aboutmesection">
   <div class="gray-box" id="aboutme">
     <h class="aboutme-title">About me</h>  
-    </div>
+    <p class="aboutme-details">I am currently a senior majoring in computer science at the University of Buffalo. 
+      I am also a teaching assistant for two courses and love to learn how to code more effectively and efficiently.</p>
+  </div>
 </section>
 
 
-
-
-  
-
-
-  <!-- <section>  
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="jumbotron">
-          <h1 id="projects">Projects</h1>
-          
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>        <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>        <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>        <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-          <p>dasdsadasd</p>
-      </div>
+  <section class="projects-section" id="projects">
+    <div id="projects-title-div">
+      <h id="projects-title">Projects</h>
     </div>
+    <div id="autograder-div">
+      <h>DevU autograder API</h>
+      <img class="autograder-img" src="./images/autograderimage.png" alt="description of image">
+      <p> This is a paragraph that describes the project.</p>
+    </div>
+
+    <div id="discordbot-div">
+      <h>Discord Bot</h>
+      <img class="discordbot-img" src="./images/discordbot.png" alt="description of image">
+      <p> This is a paragraph that describes the project.</p>
+    </div>
+ </section>
+
+
+
+
   </section>
-   -->
-
   
-
   
   
   
@@ -122,7 +100,10 @@
 
     
     <footer class="footer">
-      <button id="scroll-to-top-btn">Scroll to top</button>   
+      <a href="#">
+        <i class="fa-solid fa-angle-up" id="scroll-to-top-btn"></i>
+      </a>
+      
     <div class="icons">
     <a href='https://github.com/jpobzy'>
       <i class="fa-brands fa-github"></i>
@@ -132,9 +113,6 @@
     </a>
     <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
       <i class="fa-regular fa-envelope"></i>
-    </a>
-    <a href='https://www.linkedin.com/in/joey-poblete-174b67193/'>
-      <i class="fa-solid fa-down"></i>
     </a>
 
     
