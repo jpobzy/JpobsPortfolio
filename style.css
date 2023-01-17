@@ -21,6 +21,26 @@
     
 
     
+.icons2{ /* for top of page icons*/
+    text-align: center;
+    font-size: 70%;
+    margin-top: -40px;
+    --main-color: rgb(79, 201, 55);
+}
+
+
+.fa-brands.fa-github.fa-icon {
+    color: var(--main-color);
+  }
+  
+.fa-brands.fa-linkedin.fa-icon{
+    color: var(--main-color);
+}  
+
+.fa-regular.fa-envelope.fa-icon{
+    color: var(--main-color); 
+} /* end of top of page icons*/
+
       
 
 
@@ -66,21 +86,21 @@
 
 .name h1{
     text-align: center;
-    margin-top: 41vh;
+    margin-top: 40vh;
     font-size: 810% !important;
-    color: rgb(108, 108, 250);
+    color: rgb(8, 182, 182);
     margin-bottom: 30px;
 }
 
 
 
 .highlight {
-    color: rgb(75, 85, 226);
+    color: rgb(171, 175, 236);
 }
 
 .non-highlight-text{
     font-size: 24px;
-    color: rgb(252, 253, 255);
+    color: rgb(208, 214, 208);
     font-weight: 500;
 }
 
@@ -137,7 +157,7 @@
     position: relative;
     top: 100px; 
     font-size: 50px;
-    color: white;
+    color: rgb(228, 217, 217);
     text-align: center;
     }
     
@@ -172,7 +192,7 @@
     height: 2500px;
     /* background-color: rgb(97, 11, 11);  */
     /* background: linear-gradient(to right, #ffd89b, #ffd89b, #ffaf84, #ff5f6d, #ff5f6d); */
-    background: linear-gradient(to bottom, #ffa600 0%, #ff7f00 100%);
+    background: linear-gradient(to bottom, #007991 0%, #78FFD6 100%);
 }
 
 #projects-title{
@@ -180,7 +200,8 @@
     position: relative;
     text-align: center;
     font-size: 100px;
-    color: rgb(155, 61, 61);
+    /* color: rgb(155, 61, 61); */
+    color: rgb(61, 180, 45);
     display: block;
 }
 
@@ -198,7 +219,7 @@
     margin: 10px auto;
     text-align: center; 
     font-size: 20px;
-    color: rgb(168, 64, 64);
+    color: rgb(36, 104, 9);
 }
 
 
@@ -231,22 +252,8 @@ h {
     margin: 10px auto;
     text-align: center; 
     font-size: 20px;
-    color: rgb(184, 42, 42);
+    color: rgb(11, 136, 28);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* hide the after-image by default */
 .after-image {
@@ -289,16 +296,16 @@ h {
   
 .l4dautoconfig-div {
     text-align: center;
-  }
+}
   
-  .caption-text {
+.caption-text {
     margin-top: 10px;
     font-size: 20px;
     display: inline-block;
     text-align: center;
-    color: rgb(143, 58, 58);
+    color: rgb(13, 107, 52);
     max-width: 500px; 
-  }
+}
   
 
 
@@ -329,28 +336,6 @@ h {
 
 
 
-
-.icons2{ /* for top of page icons*/
-    text-align: center;
-    font-size: 70%;
-    margin-top: -40px;
-}
-
-:top-icon{
-    --main-color: blue;
-}
-
-.fa-brands.fa-github.fa-icon {
-    color: var(--main-color);
-  }
-  
-.fa-brands.fa-linkedin.fa-icon{
-    color: var(--main-color);
-}  
-
-.fa-regular.fa-envelope.fa-icon{
-    color: var(--main-color); 
-} /* end of top of page icons*/
 
 
 
