@@ -52,14 +52,14 @@
 .about-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(25, 25, 161);
+    color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
 }
 .projects-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(25, 25, 161);
+    color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
 
@@ -67,7 +67,7 @@
 .resume-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(25, 25, 161);
+    color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
 }
