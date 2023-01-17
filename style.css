@@ -229,15 +229,27 @@
     margin-top: 180px; 
 }
 
-h {
+#autograder-h {
+    color: rgb(5, 5, 26); /* or any desired color value */
     font-size: 40px;
     display: block;
 }
+  
+
+
+
 
 
 #discordbot-div {
     text-align: center;
     margin-top: 100px; 
+}
+
+
+#discordbot-h {
+    color: rgb(3, 3, 17); /* or any desired color value */
+    font-size: 40px;
+    display: block;
 }
 
 .discordbot-img {
@@ -252,7 +264,7 @@ h {
     margin: 10px auto;
     text-align: center; 
     font-size: 20px;
-    color: rgb(11, 136, 28);
+    color: rgb(8, 112, 22);
 }
 
 /* hide the after-image by default */
@@ -268,10 +280,19 @@ h {
     justify-content: center;
   }
   
-  .l4dautoconfig-div h {
+  #l4dautoconfig-div h {
     margin-top: 100px;
     text-align: center;
 }
+
+#l4dautoconfig-h {
+    margin-top: 100px; 
+    color: rgb(24, 1, 1); /* or any desired color value */
+    font-size: 40px;
+    display: block;
+}
+
+
 
 
   /* center the image container */
@@ -310,6 +331,7 @@ h {
 
 
 
+  
 
 
 
