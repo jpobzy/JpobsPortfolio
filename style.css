@@ -5,28 +5,38 @@
     scroll-behavior: smooth;
     }
   
+    
 
     body{
         overflow-x: hidden;
         font-family: Arial, sans-serif;
     }
 
+
     
 #header-background {
     background-image: url('./images/2.jpg');
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     height: 100vh;
-    /* width: 99vw; */
+    overflow: hidden
 }
     
+.new-header {
+    background-color: #585555; 
+}
+   
+.new-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 
-    
 
 
-
-.new-header{ /*home, about, project, resume*/
+.new-header{ 
     text-align: center;
     font-size: 170% !important;
 }
@@ -42,14 +52,14 @@
 .about-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: blue;
+    color: rgb(25, 25, 161);
     text-decoration:none;
     cursor: pointer;
 }
 .projects-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: blue;
+    color: rgb(25, 25, 161);
     text-decoration:none;
     cursor: pointer;
 
@@ -57,7 +67,7 @@
 .resume-link{
     margin-left: 10px;
     margin-right: 10px;
-    color: blue;
+    color: rgb(25, 25, 161);
     text-decoration:none;
     cursor: pointer;
 }
@@ -100,43 +110,82 @@
 }
 
 
-.icons2{ /* for top of page icons*/
+.projects-github {
+    color: black;
+    transition: color 0.4s ease-in-out;
+}
+
+.icons2:hover {
+    color: rgb(69, 69, 212);
+}
+
+.icons2{
     text-align: center;
     font-size: 70%;
     margin-top: -40px;
     --main-color: rgb(63, 158, 202);
+    transition: color 0.4s ease-in-out;
 }
+
+.fa-icon {
+    margin-right: 10px;
+}
+
+
+a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none;
+}
+
+
+
+
 
 
 .fa-brands.fa-github.fa-icon {
     color: var(--main-color);
+    transition: color 0.4s ease-in-out;
+    
   }
   
+.fa-brands.fa-github.fa-icon:hover {
+    color: rgb(69, 69, 212);
+}
+
+
+
 .fa-brands.fa-linkedin.fa-icon{
     color: var(--main-color);
+    transition: color 0.4s ease-in-out;
+}  
+
+.fa-brands.fa-linkedin.fa-icon:hover{
+    color: rgb(69, 69, 212);
 }  
 
 .fa-regular.fa-envelope.fa-icon{
     color: var(--main-color); 
-} /* end of top of page icons*/
+    transition: color 0.4s ease-in-out;
+} 
 
-      
 
+.fa-regular.fa-envelope.fa-icon:hover{
+    color: rgb(69, 69, 212);
+}
 
 .arrow-down{
-    margin-top: 130px;
     text-align: center;
+}
+
+.fa-solid.fa-angle-down.top-icon{
+     color: rgb(63, 158, 202);
+    margin-top: 130px;
     font-size: 100%;
-    margin-bottom: 400px;
+    transition: color 0.4s ease-in-out;
 }
 
-.arrow-down a {
-    cursor: pointer;
+.fa-solid.fa-angle-down.top-icon:hover{
+    color: rgb(69, 69, 212);
 }
-
-
-
-
 
 
 
@@ -182,11 +231,11 @@
     top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    color: rgb(252, 248, 248);
+    color: rgba(252, 248, 248, 0.692);
 }
 
 
@@ -205,7 +254,6 @@
 .projects-section{
     position: relative;
     height: 2100px;
-    /* background: linear-gradient(to bottom, #007991 0%, #78FFD6 100%); */
     background-color: rgb(255, 255, 255);
 }
 
@@ -230,44 +278,43 @@
     max-width: 800px; 
 }
 
+.projects-github {
+    color: black;
+    transition: color 0.4s ease-in-out;
+}
+
+.projects-github:hover {
+    color: rgb(69, 69, 212);
+}
+
+  
+.projects-github{
+    color: rgb(5, 5, 26); 
+}
 
 #autograder-div p {
-    /* max-width: 500px;  */
     margin: 10px auto;
     text-align: center; 
     font-size: 20px;
     color: rgb(5, 15, 1);
 }
 
-
-
 #autograder-div {
     text-align: center;
     margin-top: 140px; 
 }
 
-#autograder-h {
-    color: rgb(5, 5, 26); /* or any desired color value */
-    font-size: 40px;
+#autograder-h, #discordbot-h, #l4dautoconfig-h  {
+    color: rgb(5, 5, 26); 
+    font-size: 30px;
     display: block;
 }
   
-
-
-
-
-
 #discordbot-div {
     text-align: center;
     margin-top: 100px; 
 }
 
-
-#discordbot-h {
-    color: rgb(3, 3, 17); /* or any desired color value */
-    font-size: 40px;
-    display: block;
-}
 
 .discordbot-img {
     width: 100%;
@@ -277,48 +324,27 @@
 
 
 #discordbot-div p {
-    /* max-width: 500px;  */
     margin: 10px auto;
     text-align: center; 
     font-size: 20px;
     color: rgb(5, 15, 1);
 }
 
-/* hide the after-image by default */
 .after-image {
     display: none;
   }
-  
-  
 
-/* center the button container */
 .button-container {
     display: flex;
     justify-content: center;
   }
   
-  #l4dautoconfig-div h {
-    margin-top: 100px;
-    text-align: center;
-}
 
-#l4dautoconfig-h {
-    margin-top: 100px; 
-    color: rgb(24, 1, 1); /* or any desired color value */
-    font-size: 40px;
-    display: block;
-}
-
-
-
-
-  /* center the image container */
-  .image-container{
-  
+.image-container{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
 .button-container button {
     font-size: 20px;
@@ -333,16 +359,17 @@
 
   
 .l4dautoconfig-div {
+    margin-top: 100px;
     text-align: center;
 }
   
+
 .caption-text {
     margin-top: 10px;
     font-size: 20px;
     display: inline-block;
     text-align: center;
     color: rgb(5, 15, 1);
-    /* max-width: 500px;  */
 }
   
 
@@ -380,13 +407,7 @@
 
 
 
-#scroll-to-top-btn {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-    color: var(--icon-color);
-}
+
   
 .footer{
     text-align: center;
@@ -398,7 +419,7 @@
     --icon-color: rgb(83, 83, 83);
   }
   
-.fa-brands{ /* for footer icons */
+.fa-brands{ 
     font-size: 300% !important;
     color: var(--icon-color);
 }
@@ -421,10 +442,53 @@
 .copy{ 
     text-align: center;
     color: var(--icon-color);
-}/* end of footer icons*/
+}
+
+
+.fa-solid.fa-angle-up.bottom-icon{
+    color: var(--icon-color);
+    font-size: 100%;
+    margin-top: 20px;
+    transition: color 0.4s ease-in-out;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fa-solid.fa-angle-up.bottom-icon:hover{
+    color: rgb(231, 228, 228);
+}
 
 
 
 
 
 
+
+
+.fa-brands.fa-github.bottom-icon{
+    color: var(--icon-color);
+    transition: color 0.4s ease-in-out;
+}
+
+.fa-brands.fa-github.bottom-icon:hover{
+    color: rgb(231, 228, 228);
+}
+
+.fa-brands.fa-linkedin.bottom-icon{
+    color: var(--icon-color);
+    transition: color 0.4s ease-in-out;
+}
+
+.fa-brands.fa-linkedin.bottom-icon:hover{
+    color: rgb(231, 228, 228);
+}
+
+.fa-regular.fa-envelope.bottom-icon{
+    color: var(--icon-color);
+    transition: color 0.4s ease-in-out;
+}
+
+.fa-regular.fa-envelope.bottom-icon:hover{
+    color: rgb(231, 228, 228);
+}
