@@ -6,6 +6,24 @@
     }
   
 
+    body{
+        overflow-x: hidden;
+    }
+    
+#header-background {
+    background-image: url('./images/2.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 99vw; */
+}
+    
+
+    
+      
+
+
 
 .new-header{ /*home, about, project, resume*/
     text-align: center;
@@ -14,7 +32,7 @@
 
 
 .home-link{
-    color: rgb(34, 15, 15);
+    color: rgb(165, 155, 155);
     text-decoration:none;
     margin-left: 10px;
     margin-right: 10px;
@@ -43,18 +61,30 @@
     cursor: pointer;
 }
   
+
+
+
 .name h1{
     text-align: center;
-    margin-top: 250px;
-    font-size: 700% !important;
+    margin-top: 41vh;
+    font-size: 810% !important;
     color: rgb(108, 108, 250);
-    /* transform:translateX(-50px); */
+    margin-bottom: 30px;
 }
+
 
 
 .highlight {
-    color: rgb(23, 194, 123);
+    color: rgb(75, 85, 226);
 }
+
+.non-highlight-text{
+    font-size: 24px;
+    color: rgb(252, 253, 255);
+    font-weight: 500;
+}
+
+
 
 .description {
     max-width: 500px;
@@ -136,11 +166,13 @@
 
 
 
+/* projects section */
 .projects-section{
     position: relative;
-    height: 2000px;
-    background-color: rgb(255, 235, 235);
-
+    height: 2500px;
+    /* background-color: rgb(97, 11, 11);  */
+    /* background: linear-gradient(to right, #ffd89b, #ffd89b, #ffaf84, #ff5f6d, #ff5f6d); */
+    background: linear-gradient(to bottom, #ffa600 0%, #ff7f00 100%);
 }
 
 #projects-title{
@@ -159,10 +191,14 @@
     max-height: 700px;
 }
 
-.projects-section p {
-    text-align: center;
+
+
+#autograder-div p {
+    max-width: 500px; 
+    margin: 10px auto;
+    text-align: center; 
     font-size: 20px;
-    color: black;
+    color: rgb(168, 64, 64);
 }
 
 
@@ -188,6 +224,97 @@ h {
     height: auto;
     object-fit: cover;
 }
+
+
+#discordbot-div p {
+    max-width: 500px; 
+    margin: 10px auto;
+    text-align: center; 
+    font-size: 20px;
+    color: rgb(184, 42, 42);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hide the after-image by default */
+.after-image {
+    display: none;
+  }
+  
+  
+
+/* center the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .l4dautoconfig-div h {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+  /* center the image container */
+  .image-container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.button-container button {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+.button-container p {
+    text-align: center;
+    font-size: 20px;
+}
+
+  
+.l4dautoconfig-div {
+    text-align: center;
+  }
+  
+  .caption-text {
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(143, 58, 58);
+    max-width: 500px; 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -239,6 +366,7 @@ h {
   
 .footer{
     text-align: center;
+    background-color: rgb(49, 46, 46);
 }
 
 
