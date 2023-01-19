@@ -199,6 +199,25 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .gray-section{
     background-color: rgb(85, 84, 84);
     width: 100vw;
@@ -237,6 +256,42 @@ a:hover, a:focus, a:active, a:visited, a:link{
     margin: 0 auto;
     color: rgba(252, 248, 248, 0.692);
 }
+
+
+
+.skills {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#skills-title{
+    font-size: 50px;
+    color: rgb(8, 26, 6);
+}
+
+#skills-languages{
+    margin-top: 10px;
+}
+
+.skills-div p{
+    margin: 15px auto;
+    text-align: center; 
+    max-width: 800px; 
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
