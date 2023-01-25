@@ -19,6 +19,10 @@ afterButton.addEventListener('click', () => {
 
 
 
+// $(".new-header a").click(function(){
+//   $(".new-header a").removeClass("active");
+//   $(this).addClass("active");
+// });
 
 
 

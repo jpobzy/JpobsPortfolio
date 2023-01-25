@@ -38,15 +38,16 @@
 
 .new-header{ 
     text-align: center;
-    font-size: 170% !important;
+    font-size: 22px;
 }
 
 
 .home-link{
-    color: rgb(165, 155, 155);
+    color: rgb(63, 158, 202);
     text-decoration:none;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 .about-link{
@@ -55,6 +56,7 @@
     color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
+    font-size: 20px;
 }
 .projects-link{
     margin-left: 10px;
@@ -62,6 +64,7 @@
     color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
+    font-size: 20px;
 
 }
 .resume-link{
@@ -70,8 +73,50 @@
     color: rgb(63, 158, 202);
     text-decoration:none;
     cursor: pointer;
+    font-size: 20px;
 }
   
+
+.active {
+    color: rgb(69, 69, 212);
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
