@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+  
+    
+
+
+
+ 
+.new-header {
+    background-color: #585555; 
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    font-size: 22px;
+}
+   
+
+
+
+
+
+#header-background {
+    background-image: url('./images/devu2.png');
+    background-position: 100% 0%;
+    background-size: 60% 90%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-position-y: 20px;
+
+}
+
+
+
+
+
+
+.home-link{
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.about-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.projects-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.resume-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+.title-section {
+    position: absolute;
+    margin-top: -800px;
+    font-size: 50px;   
+    margin-left: 200px;
+    margin-bottom: 400px;
+}
+
+
+
+.project-title {
+    font-weight: bold;
+  }
+  
+
+#title{
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+  
+
+#description {
+   
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

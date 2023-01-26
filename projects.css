@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+  
+    
+
+
+ 
+.new-header {
+    background-color: #585555; 
+}
+   
+
+
+.new-header{ 
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.home-link{
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.about-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.projects-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.resume-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(63, 158, 202);
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+.title-section {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.devu-section{
+    width: 10%;
+    margin-left: 600px;
+}
+.autograder {
+    box-shadow: 2px 2px 5px #888888;
+}
+.autograder {
+    max-width: 600px;
+    max-height: 600px;
+}
+.devu{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.test-section{
+    width: 10%;
+    margin-top: -305px;
+    margin-left: 1250px;
+    margin-bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
