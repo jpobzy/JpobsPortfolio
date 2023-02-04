@@ -5,7 +5,10 @@
     scroll-behavior: smooth;
     }
   
-    
+    body {
+        font-family: Arial, sans-serif;
+    }
+       
 
 
 
@@ -76,16 +79,14 @@
     font-size: 20px;
 }
 
-
-
 .title-section {
     position: absolute;
-    margin-top: -800px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
     font-size: 50px;   
-    margin-left: 200px;
     margin-bottom: 400px;
 }
-
 
 
 .project-title {
@@ -98,33 +99,71 @@
     margin-top: 50px;
     
 }
-  
 
-#description {
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.devu {
+    text-align: center;
+  }
+
+
+
+.title-font {
     font-size: 30px;
+    margin-top: 50px;
+    }
+
+
+.devu dl dd {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+    
+.autolab{
+    margin-top: 100px;
+    text-align: center; 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.autolab dl dd {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+    
 
 
 
