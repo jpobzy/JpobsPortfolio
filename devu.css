@@ -5,17 +5,18 @@
     scroll-behavior: smooth;
     }
   
-    body {
-        font-family: Arial, sans-serif;
-    }
+body {
+    font-family: Arial, sans-serif;
+}
        
 
 
 
  
 .new-header {
+    z-index: 10000;
     background-color: #585555; 
-        position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,26 +25,6 @@
     font-size: 22px;
 }
    
-
-
-
-
-
-#header-background {
-    background-image: url('./images/devu2.png');
-    background-position: 100% 0%;
-    background-size: 60% 90%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-    background-position-y: 20px;
-
-}
-
-
-
-
-
 
 .home-link{
     color: rgb(63, 158, 202);
@@ -80,16 +61,18 @@
 }
 
 .title-section {
-    position: absolute;
+    top: 60px;
+    margin-left: 20px;
+    position: relative;
     bottom: 20px;
     left: 20px;
-    z-index: 10;
-    font-size: 50px;   
-    margin-bottom: 400px;
+    font-size: 30px;
+    max-width: 500px;   
 }
 
 
 .project-title {
+    font-size: 70px;
     font-weight: bold;
   }
   
@@ -100,9 +83,20 @@
     
 }
 
+#autograder{
+
+    z-index: -1;
+    margin-left: 700px;
+    margin-top: -650px;
+    height: 90vh;
+    box-shadow: 10px 10px 5px gray;
+    overflow: hidden;
+
+}
 
 
 
+  
 
 
 
@@ -129,6 +123,7 @@
 
 
 .devu {
+    margin-top: 100px;
     text-align: center;
   }
 
@@ -165,8 +160,12 @@
 }
     
 
+.participation {
+    text-align: center;
+    font-size: 16px;
+}
 
-
+  
 
 
 
