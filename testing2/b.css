@@ -11,7 +11,7 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prevB, .nextB {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -27,13 +27,13 @@ img {vertical-align: middle;}
 }
 
 /* Position the "next button" to the right */
-.nextB {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prevB:hover, .nextB:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-.dotB {
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -69,7 +69,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dotB:hover {
+.active, .dot:hover {
   background-color: #717171;
 }
 
@@ -86,5 +86,5 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prevB, .nextB, .text {font-size: 11px}
+  .prev, .next, .text {font-size: 11px}
 }
