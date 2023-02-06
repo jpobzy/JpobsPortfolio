@@ -7,15 +7,15 @@ const beforeImage = document.querySelector('.before-image');
 const afterImage = document.querySelector('.after-image');
 
 // add event listeners to the buttons
-beforeButton.addEventListener('click', () => {
-  beforeImage.style.display = 'block';
-  afterImage.style.display = 'none';
-});
+// beforeButton.addEventListener('click', () => {
+//   beforeImage.style.display = 'block';
+//   afterImage.style.display = 'none';
+// });
 
-afterButton.addEventListener('click', () => {
-  beforeImage.style.display = 'none';
-  afterImage.style.display = 'block';
-});
+// afterButton.addEventListener('click', () => {
+//   beforeImage.style.display = 'none';
+//   afterImage.style.display = 'block';
+// });
 
 
 
