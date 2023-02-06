@@ -1,10 +1,10 @@
 /////////////////////////////// FOR L4D BUTTONS ////////////////////
 
 // select the buttons and images
-const beforeButton = document.querySelector('.before-button');
-const afterButton = document.querySelector('.after-button');
-const beforeImage = document.querySelector('.before-image');
-const afterImage = document.querySelector('.after-image');
+// const beforeButton = document.querySelector('.before-button');
+// const afterButton = document.querySelector('.after-button');
+// const beforeImage = document.querySelector('.before-image');
+// const afterImage = document.querySelector('.after-image');
 
 // add event listeners to the buttons
 // beforeButton.addEventListener('click', () => {
