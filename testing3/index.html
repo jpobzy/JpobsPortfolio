@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./button.js" defer></script>
 <body>
 
 <!-- Header -->
-<div class="header">
-  <h1>Responsive Image Grid</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
 </div>
 
 <!-- Photo Grid -->

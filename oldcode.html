@@ -12,14 +12,13 @@
 
 
   <link rel="stylesheet" type="text/css" href="./testing/A.css" />
-  <!-- <script src="./testing/A.js" defer></script> -->
-
-
-  <link rel="stylesheet" type="text/css" href="./testing3/style.css" />
-  <!-- <script src="./testing3/button.js" defer></script> -->
+  <script src="./testing/A.js" defer></script>
 
 
 
+  
+  <link rel="stylesheet" type="text/css" href="./testing2/B.css" />
+  <script src="./testing2/B.js" defer></script>
 
 
 
@@ -111,38 +110,111 @@
     </p>
     <p></p>
   </section>
-
-
-
-        <!-- ################################################################################ -->
-      <!-- ##################################LOGIN#################################### -->
-      <!-- ################################################################################ -->
+  
   <div class="Aslideshow-container">
-
-    <div class="AmySlides fadeA">
-      <div class="numbertextA">1 / 4</div>
+      <!-- ################################################################################ -->
+      <!-- ################################## LOGIN #################################### -->
+      <!-- ################################################################################ -->
+    
+      <div class="AmySlides fadeA">
+      <!-- <div class="numbertextA">1 / 3</div> -->
       <img src="./images/devu/login/frontImage.png" style="width:100%">
-      <div class="textA">Loging into the API through Postman</div>
+      <div class="textA">Loging into the API in Postman</div>
     </div>
 
     <div class="AmySlides fadeA">
-      <div class="numbertextA">2 / 4</div>
+      <div class="numbertextA">1 / 3</div>
       <img src="./images/devu/login/login.png" style="width:100%">
       <div class="textA">Create a developer login POST request with the required fields in the POST body to create a refresh token</div>
     </div>
     
     <div class="AmySlides fadeA">
-      <div class="numbertextA">3 / 4</div>
+      <div class="numbertextA">2 / 3</div>
       <img src="./images/devu/login/refreshToken.png" style="width:100%">
       <div class="textA">Copy the refresh token</div>
     </div>
     
     <div class="AmySlides fadeA">
-      <div class="numbertextA">4 / 4</div>
+      <div class="numbertextA">3 / 3</div>
       <img src="./images/devu/login/authkey.png" style="width:100%">
       <div class="textA">Put the refresh token in the header Authorization: Bearer {{token}}</div>
     </div>
-  
+    
+
+
+
+
+      <!-- ################################################################################ -->
+      <!-- ################################## Courses #################################### -->
+      <!-- ################################################################################ -->
+
+
+    <div class="AmySlides fadeA">
+      <div class="numbertextA">3 / 3</div>
+      <img src="./images/devu/courses/frontImage.png" style="width:100%">
+      <div class="textA">Testing the Courses entitiy in Postman</div>
+    </div>
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">1 / 7</div>
+        <img src="./images/devu/courses/courses1.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div> 
+    
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">2 / 7</div>
+        <img src="./images/devu/courses/courses2.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div>
+
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">3 / 7</div>
+        <img src="./images/devu/courses/courses3.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">4 / 7</div>
+        <img src="./images/devu/courses/courses4.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div>
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">5 / 7</div>
+        <img src="./images/devu/courses/courses5.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div>
+
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">6 / 7</div>
+        <img src="./images/devu/courses/courses6.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div>
+
+      <div class="AmySlides fadeA">
+        <div class="numbertextA">7 / 7</div>
+        <img src="./images/devu/courses/courses7.png" style="width:100%">
+        <div class="textA">Caption Text</div>
+      </div> 
+
+
+      <!-- ################################################################################ -->
+      <!-- ################################## Assignments #################################### -->
+      <!-- ################################################################################ -->
+
+
+
+
+
+
+
+
+
+
     <a class="prevA" onclick="AplusSlides(-1)">❮</a>
     <a class="nextA" onclick="AplusSlides(1)">❯</a>
     
@@ -151,55 +223,78 @@
     
     <div style="text-align:center">
       <span class="dotA" onclick="AcurrentSlide(1)"></span> 
-      <span class="dotA" onclick="AcurrentSlide(2)"></span> 
+      <span class="dotA" onclick="AcurrentSlide(5)"></span> 
       <span class="dotA" onclick="AcurrentSlide(3)"></span> 
-      <span class="dotA" onclick="AcurrentSlide(4)"></span> 
     </div>
 
 
- <!-- Header -->
-  <div class="header" id="myHeader">
-    <h1>Image Grid</h1>
-    <p>Click on the buttons to change the grid view.</p>
-    <button class="btn" onclick="one()">1</button>
-    <button class="btn on" onclick="two()">2</button>
-    <button class="btn" onclick="four()">4</button>
-  </div>
 
-  <!-- Photo Grid -->
-    <div class="row"> 
-      <div class="column">
-        <!-- <img src="../images/devu/assignments/frontImage.png" style="width:100%"> -->
-        <img src="../images/devu/assignments/assignments1.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments2.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments3.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments4.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments5.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments6.png" style="width:100%">
-        <img src="../images/devu/assignments/assignments7.png" style="width:100%">
+    <!-- <div class="slideshow-containerB">
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">1 / 7</div>
+        <img src="./images/devu/courses/courses1.png" style="width:100%">
+        <div class="textB">Caption Text</div>
       </div>
-      <div class="column">
-        <!-- <img src="../images/devu/courses/frontImage.png" style="width:100%"> -->
-        <img src="../images/devu/courses/courses1.png" style="width:100%">
-        <img src="../images/devu/courses/courses2.png" style="width:100%">
-        <img src="../images/devu/courses/courses3.png" style="width:100%">
-        <img src="../images/devu/courses/courses4.png" style="width:100%">
-        <img src="../images/devu/courses/courses5.png" style="width:100%">
-        <img src="../images/devu/courses/courses6.png" style="width:100%">
-        <img src="../images/devu/courses/courses7.png" style="width:100%">
-      </div>  
-      <div class="column">
-        <!-- <img src="../images/devu/submissions/frontImage.png" style="width:100%"> -->
-        <img src="../images/devu/submissions/submissions1.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions2.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions3.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions4.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions5.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions6.png" style="width:100%">
-        <img src="../images/devu/submissions/submissions7.png" style="width:100%">
-        <!-- <img src="../images/devu/submissions/endImage.png" style="width:100%"> -->
+    
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">2 / 7</div>
+        <img src="./images/devu/courses/courses2.png" style="width:100%">
+        <div class="textB">Caption Text</div>
       </div>
-    </div>
+
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">3 / 7</div>
+        <img src="./images/devu/courses/courses3.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">4 / 7</div>
+        <img src="./images/devu/courses/courses4.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">5 / 7</div>
+        <img src="./images/devu/courses/courses5.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">6 / 7</div>
+        <img src="./images/devu/courses/courses6.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+      <div class="mySlidesB fadeB">
+        <div class="numbertextB">7 / 7</div>
+        <img src="./images/devu/courses/courses7.png" style="width:100%">
+        <div class="textB">Caption Text</div>
+      </div>
+
+
+
+      <a class="prevB" onclick="plusSlidesB(-1)">❮</a>
+      <a class="nextB" onclick="plusSlidesB(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dotB" onclick="currentSlideB(1)"></span> 
+        <span class="dotB" onclick="currentSlideB(2)"></span> 
+        <span class="dotB" onclick="currentSlideB(3)"></span> 
+        <span class="dotB" onclick="currentSlideB(4)"></span> 
+        <span class="dotB" onclick="currentSlideB(5)"></span> 
+        <span class="dotB" onclick="currentSlideB(6)"></span> 
+        <span class="dotB" onclick="currentSlideB(7)"></span> 
+      </div> -->
 
 
 
