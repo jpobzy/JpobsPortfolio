@@ -177,6 +177,19 @@ body {
 }
 
 
+.myrole {
+    text-align: center;
+    font-size: 16px;
+}
+
+  
+#myrole-explanation {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 16px;
+    margin: 0 auto;
+
+}
 
 
 
