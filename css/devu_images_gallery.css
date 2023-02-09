@@ -2,21 +2,19 @@
   width: [width of the element];
   margin: 0 auto;
   text-align: center;
-}
-
-.container {
-  /* width: 2000px; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery {
-  width: 100px;
+  width: 120px;
   border: 1px solid #ccc;
   overflow: hidden;
   display: inline-block;
-  }
-
+  margin-left: 10px;
+  margin-left: 10px;
+}
 
 .gallery:hover {
   border: 1px solid #777;
@@ -24,10 +22,10 @@
 
 .gallery img {
   width: 100%;
-  /* height: auto; */
-  height: 50px;
+  height: 70px;
 }
 
 .desc {
   text-align: center;
+  width: 120px;
 }

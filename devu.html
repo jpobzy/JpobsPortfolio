@@ -4,7 +4,7 @@
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>Joey Poblete</title>
   <link rel="stylesheet" type="text/css" href="./devu.css" />
-  <link rel="stylesheet" type="text/css" href="./footer.css" />
+  <link rel="stylesheet" type="text/css" href="./css/footer.css" />
 
   <script src="https://kit.fontawesome.com/f50db56413.js" crossorigin="anonymous"></script>
   <script src="./actions.js" defer></script>
@@ -105,7 +105,10 @@
 
   </section>
 
+  <br>
   <section class="participation">
+    <br>
+    <!-- <h2>How the current autolab works:</h2> -->
     <p class="title-font">How DevU works:</p>
     <p id="devu-explanation">Our system boasts a sleek, divided architecture that optimizes functionality and performance. The central index.ts file manages important global controls and middlewares, while the routers directory directs requests to the right resources. Middlewares, including those for authentication, request validation, and data handling, streamline tasks and enhance security. The services component houses the main application logic and manages database interactions, serving as the backbone of the entire system.
     </p>
@@ -120,7 +123,17 @@
   </section>
 
 
-
+  <section class="testing">
+    <p class="title-font">Testing</p>
+    <p id="testing-explanation">For testing there are two types of testing that is required to be conducted. One for the entities individual files like the controller and serializer and testing in Postman for the entity itself. The individual tests required individual testing files, for example the submissions controller file requires a submissions controller test file which uses Jest, a popular testing framework, to verify that the controller behaves correctly in different scenarios. The tests cover four main aspects:</p>
+    <br>
+    <p id="bulletpoint">Getting all submissions (GET /submissions)</p>
+    <p id="bulletpoint">Getting a submission by ID (GET /submissions/:id)</p>
+    <p id="bulletpoint">Creating a new submission (POST /submissions)</p>
+    <p id="bulletpoint">Updating a submission (PUT /submissions/:id)</p>
+    <br>
+    <p id="testing-explanation">The second type of testing focuses on the entity as a whole. To accomplish this, I utilized Postman to create and manage assignments and courses data by inputting the required information in the POST request body. I then verified the data's accuracy by utilizing GET requests and edited the data through PUT requests. This testing guarantees that the data is accurately stored and easily accessible in the database.</p>
+  </section>
 
 
 
@@ -145,8 +158,10 @@
         <!-- ################################################################################ -->
       <!-- ##################################LOGIN#################################### -->
       <!-- ################################################################################ -->
-  <div class="Aslideshow-container">
 
+<p class="auth_tile">Creating an authenticated user account in Postman</p>
+  <div class="Aslideshow-container">
+    
     <div class="AmySlides fadeA">
       <div class="numbertextA">1 / 4</div>
       <img src="./images/devu/login/frontImage.png" style="width:100%">
@@ -184,56 +199,178 @@
       <span class="dotA" onclick="AcurrentSlide(4)"></span> 
     </div>
 
+<br>
 
+
+       <!-- ################################################################################ -->
+      <!-- ################################## COURSES #################################### -->
+      <!-- ################################################################################ -->
+
+      <h2 class="idk"> TESTING COURSES</h2>
   <div class="container">
     <!-- Assignments -->
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments1.png">
-        <img src="./images/devu/assignments/assignments1.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses1.png">
+        <img src="./images/devu/courses/courses1.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Retrieve a List of Courses with an Empty Library (GET Request) </div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments2.png">
-        <img src="./images/devu/assignments/assignments2.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses2.png">
+        <img src="./images/devu/courses/courses2.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Create a New Course with Missing Information (POST Request)</div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments3.png">
-        <img src="./images/devu/assignments/assignments3.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses3.png">
+        <img src="./images/devu/courses/courses3.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Establish a Fully Informed Course (POST Request)
+      </div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments4.png">
-        <img src="./images/devu/assignments/assignments4.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses4.png">
+        <img src="./images/devu/courses/courses4.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Adjust the End Date of an Existing Course to a Random Year (PUT Request)</div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments5.png">
-        <img src="./images/devu/assignments/assignments5.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses5.png">
+        <img src="./images/devu/courses/courses5.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Verify the Successful Update of a Specific Course (GET Request)
+        </div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments6.png">
-        <img src="./images/devu/assignments/assignments6.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses6.png">
+        <img src="./images/devu/courses/courses6.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Create an Additional Course, with the ID Automatically Incremented to the Next Available Number (POST Request)</div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="./images/devu/assignments/assignments7.png">
-        <img src="./images/devu/assignments/assignments7.png" alt="Cinque Terre" >
+      <a target="_blank" href="./images/devu/courses/courses7.png">
+        <img src="./images/devu/courses/courses7.png" alt="Cinque Terre" >
       </a>
-      <div class="desc">Add a description of the image here</div>
+      <div class="desc">Fetch an Overview of All Courses in the Library (GET Request)</div>
     </div>    
   </div>
 
 
 
+<br>
 
+
+
+        <!-- ################################################################################ -->
+      <!-- ################################## ASSIGNMENTS #################################### -->
+      <!-- ################################################################################ -->
+ 
+<h2 class="idk"> TESTING ASSIGNMENTS</h2>
+ 
+      <div class="container">
+    <!-- Assignments -->
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments1.png">
+        <img src="./images/devu/assignments/assignments1.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Get assignments (none created) - GET request </div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments2.png">
+        <img src="./images/devu/assignments/assignments2.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Create empty assignment - POST request</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments3.png">
+        <img src="./images/devu/assignments/assignments3.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Create assignment for CSE 312 - POST request </div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments4.png">
+        <img src="./images/devu/assignments/assignments4.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Update assignment 1 due date - PUT request</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments5.png">
+        <img src="./images/devu/assignments/assignments5.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Confirm update - GET request</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments6.png">
+        <img src="./images/devu/assignments/assignments6.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Create assignment for CSE 116 - POST request</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="./images/devu/assignments/assignments7.png">
+        <img src="./images/devu/assignments/assignments7.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Get assignments - GET request</div>
+    </div>    
+  </div>
+
+
+  <br>
+
+
+  <!-- ################################################################################ -->
+ <!-- ################################## SUBMISSIONS #################################### -->
+ <!-- ################################################################################ -->
+
+
+<h2 class="idk"> TESTING SUBMISSIONS</h2>
+
+<div class="container">
+  
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions1.png">
+   <img src="./images/devu/submissions/submissions1.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Retrieve a List of Courses with an Empty Library (GET Request) </div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/courses/submissions2.png">
+   <img src="./images/devu/submissions/submissions2.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Create a New Course with Missing Information (POST Request)</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions3.png">
+   <img src="./images/devu/submissions/submissions3.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Establish a Fully Informed Course (POST Request)
+ </div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions4.png">
+   <img src="./images/devu/submissions/submissions4.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Adjust the End Date of an Existing Course to a Random Year (PUT Request)</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions5.png">
+   <img src="./images/devu/submissions/submissions5.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Verify the Successful Update of a Specific Course (GET Request)
+   </div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions6.png">
+   <img src="./images/devu/submissions/submissions6.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Create an Additional Course, with the ID Automatically Incremented to the Next Available Number (POST Request)</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="./images/devu/submissions/submissions7.png">
+   <img src="./images/devu/submissions/submissions7.png" alt="Cinque Terre" >
+ </a>
+ <div class="desc">Fetch an Overview of All Courses in the Library (GET Request)</div>
+</div>    
+</div>
 
 
 

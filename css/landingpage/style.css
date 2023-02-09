@@ -15,7 +15,8 @@
 
     
 #header-background {
-    background-image: url('./images/2.jpg');
+    /* background-image: url('./images/2.jpg'); */
+    background-image: url('../../images/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -322,7 +323,8 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
 .projects-section{
     position: relative;
-    background-image: url('./images/3.jpg');
+    /* background-image: url('./images/3.jpg'); */
+    background-image: url('../../images/3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;

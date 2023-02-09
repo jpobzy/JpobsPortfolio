@@ -194,16 +194,36 @@ body {
 
 
 
+.testing {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#testing-explanation {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 16px;
+    margin: 0 auto;
+
+}
+
+
+.auth_tile {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
 
 
 
-
-
-
-
-
-
-
+.idk{
+    margin-top: 20px;
+    text-align: center;
+    
+}
 
 
 
