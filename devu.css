@@ -218,6 +218,29 @@ body {
 
 }
 
+#final-explanation {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+#final-explanation a {
+    color: rgb(63, 158, 202);
+    text-decoration: none;
+}
+
+#final-explanation a:hover {
+    text-decoration: underline;
+    color: rgb(69, 69, 212);
+}
+
+a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none;
+}
+
+
 
 .auth_tile {
     margin-top: 20px;
@@ -265,10 +288,25 @@ body {
 
 
 
+.fa-brands.fa-github.fa-icon {
+    color: var(--main-color);
+    transition: color 0.4s ease-in-out;
+    
+  }
+  
+.fa-brands.fa-github.fa-icon:hover {
+    color: rgb(69, 69, 212);
+}
 
 
+.fa-brands.fa-github.bottom-icon{
+    color: var(--icon-color);
+    transition: color 0.4s ease-in-out;
+}
 
-
+.fa-brands.fa-github.bottom-icon:hover{
+    color: rgb(231, 228, 228);
+}
 
 
 
