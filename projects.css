@@ -84,7 +84,6 @@ body {
 
 .autograder{
     max-width: 500px;
-       
 }
 
 
@@ -102,11 +101,30 @@ body {
     align-items: center;
     justify-content: center;
     height: [height of the element];
-    margin-bottom: 400px;
+    /* margin-bottom: 400px; */
     margin-top: 100px;
   }
   
+.devu {
+   font-size: 50px;
+   text-align: center;
+  }
 
+
+.hax0rs-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: [height of the element];
+    margin-bottom: 400px;
+    margin-top: 100px;
+  }
+
+
+.hax0rs {
+    font-size: 50px;
+    text-align: center;
+}
 
 
 

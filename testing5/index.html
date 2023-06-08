@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Requirements</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Defining Our Problem Space: Requirements</h1>
+  
+  <h2>Game requirements</h2>
+  <p>Make a multiplayer game with lobby support and leaderboards. The game itself can be very simple as you will be graded on the functionality of the 3 features below, however it must be a multiplayer game. The game can run entirely in the browser via JavaScript while sending/receiving updates on the game state via WebSockets.</p>
+  
+  <h3>User accounts</h3>
+  <p>Each user's profile must track at least one value related to that user (e.g., display name, avatar, number of wins, etc.). Users must have a way to view this data for their own profile. They do not have to have a way to change this data (e.g., display name, avatar can be chosen at account creation and never change).</p>
+  
+  <h3>User Data - Lobbies or MMO</h3>
+  <p>If the number of players for your game is limited, multiple games must be able to occur simultaneously. You are free to design the way users start multiple games as long as it is intuitive. Players should be able to start a new game even when other games are already in progress (e.g., If you have a 2 player game, 10 users should be able to play 5 different games simultaneously). Alternatively, you may build an MMO (Massively Multiplayer Online) game when any number of users can play in the same game simultaneously.</p>
+  
+  <h3>WebSockets - Multiplayer</h3>
+  <p>When users are playing the game, all moves and game state updates must be sent via WebSockets to enable a real-time multiplayer experience.</p>
+  
+  <h3>Open-Source Reports</h3>
+  <p>You are required to write 3 open-source reports as part of your project. These reports will be on the following features of your framework:</p>
+  <ul>
+    <li>TCP connections: Must include the code, in your chosen framework from the list above, where the connections are established or where a library approved on the homework is called.</li>
+    <li>Parsing HTTP headers: Must include the code in your framework from the above list that parses the headers.</li>
+    <li>WebSockets: Be sure to include how the connection is established as well as how frames are parsed in the library you chose for WebSocket connections.</li>
+  </ul>
+</body>
+</html>
