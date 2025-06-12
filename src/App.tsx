@@ -5,24 +5,29 @@ import { Routes, Route} from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import ScrollToTop from './components/scrollToTop/ScrollToTop';
 import { BrowserRouter } from 'react-router-dom'
+import FlipArena from './pages/FlipArena';
 
 function App() {
 
   return (
     <div>
-    
-      <Aurora
-        colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
-        blend={0.5}
-        amplitude={1.0}
-        speed={0.5}
-      />
+      
+
+        <Aurora
+          colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        />
 
     <BrowserRouter>
         <ScrollToTop/> 
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/projects/devu" element={<DevU />} />
+        <Route path="/projects/fliparena" element={<FlipArena />} />
+        {/* <Route path="/" element={<Test1 />} /> 
+        <Route path="/test2" element={<Test2 />} /> */}
       </Routes>
     </BrowserRouter>
     

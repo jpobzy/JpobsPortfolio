@@ -1,7 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import './ProjectShowcase.css'
+import './DevuProjectShowcase.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import './Carousel.css'
 
 import carosuel1img1 from '../../components/projects/images/oldimages/devu/login/frontImage.png'
 import carosuel1img2 from '../../components/projects/images/oldimages/devu/login/login.png'
@@ -32,7 +33,7 @@ import submissionsimg5 from '../../components/projects/images/oldimages/devu/sub
 import submissionsimg6 from '../../components/projects/images/oldimages/devu/submissions/submissions6.png'
 import submissionsimg7 from '../../components/projects/images/oldimages/devu/submissions/submissions7.png'
 
-function ProjectShowcase() {
+function DevuProjectShowcase() {
   return (
     <div>
 
@@ -255,4 +256,4 @@ function ProjectShowcase() {
   );
 }
 
-export default ProjectShowcase;
+export default DevuProjectShowcase;
