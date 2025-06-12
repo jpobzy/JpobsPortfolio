@@ -13,7 +13,7 @@ function Home(){
       const [hovered, setHovered] = useState(false)
     
       const scrolldown = ()=> {
-       myRef.current?.scrollIntoView({ behavior: 'smooth' });
+      //  myRef.current?.scrollIntoView({ behavior: 'smooth' });
       }
     return (
          <>
@@ -83,7 +83,7 @@ function Home(){
        </section>
 
 
-      <section id='hobbys' className='mt-20'>
+      <section id='hobbys' className='mt-20 mb-[90px]'>
         <Hobbys />
       </section>
         

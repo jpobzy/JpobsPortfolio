@@ -1,7 +1,10 @@
 @import "tailwindcss";
+/* @plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json"; */
 
 body{
     margin: 0;
     background-color: black;
     color: rgba(175, 174, 174, 0.985);
 }
+
