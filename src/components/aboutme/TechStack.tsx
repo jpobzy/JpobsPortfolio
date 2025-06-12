@@ -17,52 +17,52 @@ function TechStack(){
             <div className="grid grid-cols-5 gap-30 mt-10 w-fit mx-auto text-[30px]">
 
             <div className="w-fit mx-auto">
-                <img src={pythonlogo} alt="Python" className="w-[125px] " />
+                <img src={pythonlogo} alt="Python" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">Python</p>
             </div>
                
 
             <div className="w-fit mx-auto">
-                <img src={scalalogo} alt="Scala" className="w-[125px] " />
+                <img src={scalalogo} alt="Scala" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">Scala</p>
             </div>
                
 
             <div className="w-fit mx-auto">
-                <img src={typescriptlogo} alt="TypeScript" className="w-[125px] " />
+                <img src={typescriptlogo} alt="TypeScript" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">TypeScript</p>
             </div>
                
 
             <div className="w-fit mx-auto">
-                <img src={javascriptlogo} alt="JavaScript" className="w-[125px] " />
+                <img src={javascriptlogo} alt="JavaScript" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">JavaScript</p>
             </div>
 
 
             <div className="w-fit mx-auto">
-                <img src={reactlogo} alt="React" className="w-[125px] " />
+                <img src={reactlogo} alt="React" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">React</p>
             </div>
                
             <div className="w-fit mx-auto">
-                <img src={mongodblogo} alt="MongoDB" className="w-[125px] " />
+                <img src={mongodblogo} alt="MongoDB" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">MongoDB</p>
             </div>
                
             <div className="w-fit mx-auto">
-                <img src={dockerlogo} alt="Docker" className="w-[125px] " />
+                <img src={dockerlogo} alt="Docker" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">Docker</p>
             </div>
                
 
             <div className="w-fit mx-auto">
-                <img src={nodejslogo} alt="NodeJS" className="w-[125px] " />
+                <img src={nodejslogo} alt="NodeJS" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">NodeJS</p>
             </div>
                
             <div className="w-fit mx-auto">
-                <img src={gitlogo} alt="Git" className="w-[125px] " />
+                <img src={gitlogo} alt="Git" className="mx-auto w-[100px] " />
                 <p className="w-fit mx-auto">Git</p>
             </div>
                               

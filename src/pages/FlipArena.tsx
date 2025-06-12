@@ -2,7 +2,7 @@ import GradientText from "../components/gradient/GradientText"
 import tango from '../components/projects/images/oldimages/devu/tango.png'
 import controlflow from '../components/projects/images/oldimages/devu/controlFlow.png'
 import ProjectShowcase from "../components/carousel/FlipArenaProjectShowcase"
-import homeImg from '../components/projects/images/oldimages/devu/home.png'
+import homeImg from '../components/projects/images/oldimages/lehax0rs/loggingin/welcome.png'
 
 import multiplelobbys from '../components/projects/images/oldimages/lehax0rs/joinginglobby/multiple lobbies.png'
 import originaldesign from '../components/projects/images/oldimages/lehax0rs/Setupnsheet.png'

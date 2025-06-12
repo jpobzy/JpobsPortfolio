@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import ScrollToTop from './components/scrollToTop/ScrollToTop';
 import { BrowserRouter } from 'react-router-dom'
 import FlipArena from './pages/FlipArena';
+import TuneRip from './pages/TuneRip';
 
 function App() {
 
@@ -26,8 +27,7 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/projects/devu" element={<DevU />} />
         <Route path="/projects/fliparena" element={<FlipArena />} />
-        {/* <Route path="/" element={<Test1 />} /> 
-        <Route path="/test2" element={<Test2 />} /> */}
+        <Route path='/projects/tunerip' element={<TuneRip />}/>
       </Routes>
     </BrowserRouter>
     

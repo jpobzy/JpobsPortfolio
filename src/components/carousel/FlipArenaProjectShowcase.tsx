@@ -116,6 +116,7 @@ function FlipArenaProjectShowcase() {
              
                 </Carousel>
             </TabPanel>
+
             <TabPanel>
 
                 <Carousel className='mx-auto gameplay' indicators={true} interval={null}>
@@ -155,64 +156,61 @@ function FlipArenaProjectShowcase() {
                             <div className='!-mb-[200px]'>{"Winning and losing screens"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
             </TabPanel>
-            {/* <TabPanel>
-                <div className="text-[40px] mx-auto text-center ">{"TESTING SUBMISSIONS ENTITY:"}</div>
-                <Carousel className='mx-auto w-[900px]' indicators={true} interval={null}>
+
+
+
+            <TabPanel>
+                <Carousel className='mx-auto gameplay' indicators={true} interval={null}>
                     <Carousel.Item>
-                    <img className="h-full w-full object-contain " src={submissionsimg1}/>
-                        <Carousel.Caption className='!mt-[203px]'>
-                            <div className='!-mb-[200px]'>{"Retrieve a List of Courses with an Empty Library (GET Request)"}</div>
+                    <img className="mx-auto h-[700px]" src={extra1}/>
+                        <Carousel.Caption className=''>
+                            <div className='-mb-[300px]'>{"App is supported on tablet"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
 
                     <Carousel.Item>
-                        <img src={submissionsimg2}/>
+                        <img className="mx-auto h-[700px]" src={extra2}/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Create a New Course with Missing Information (POST Request)"}</div>
+                            <div className='!-mb-[200px]'>{"App is supported on tablet"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
 
                     <Carousel.Item>
-                        <img src={submissionsimg3}/>
+                        <img src={extra3} className="mx-auto"/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Establish a Fully Informed Course (POST Request)"}</div>
+                            <div className='!-mb-[200px]'>{"Contact info page"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img src={submissionsimg4}/>
+                        <img src={extra4} className="mx-auto"/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Adjust the End Date of an Existing Course to a Random Year (PUT Request)"}</div>
+                            <div className='!-mb-[200px]'>{"Game info page"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img src={submissionsimg5}/>
+                        <img src={extra5} className='w-[1300px] mx-auto'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Verify the Successful Update of a Specific Course (GET Request)"}</div>
+                            <div className='!-mb-[200px]'>{"Leaderboard page"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img src={submissionsimg6}/>
+                        <img src={extra6} className='w-[1300px] mx-auto'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Create an Additional Course, with the ID Automatically Incremented to the Next Available Number (POST Request)"}</div>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img src={submissionsimg7}/>
-                        <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Fetch an Overview of All Courses in the Library (GET Request)"}</div>
+                            <div className='!-mb-[200px]'>{"Stats page"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </TabPanel> */}
+
+            </TabPanel>
+
         </Tabs>
     </div>
 
