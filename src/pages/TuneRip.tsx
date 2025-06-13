@@ -1,14 +1,14 @@
 import GradientText from "../components/gradient/GradientText"
 import tango from '../components/projects/images/oldimages/devu/tango.png'
 import controlflow from '../components/projects/images/oldimages/devu/controlFlow.png'
-import DevuProjectShowcase from "../components/carousel/DevuProjectShowcase"
+import TuneRipShowcase from "../components/carousel/TuneRipShowcase"
 import homeImg from '../components/projects/images/oldimages/devu/home.png'
 
 function TuneRip(){
 
     return (
         <div>
-            <div className="mb-[200px]">
+            <div className="mb-[200px] ">
                 <div className="   text-[150px] ml-[50px] -mt-[30px]">
                     <GradientText
                         colors={["#FFD1BA", "#FF8C42", "#FF6B6B", "#FF5DA2", "#8F5EFF", "#3D348B"]}
@@ -86,22 +86,28 @@ function TuneRip(){
                     
                     
                 </div>
-            </section>
+            </section> */}
 
 
             <section id="projectImages" className="h-[700px]">
                 <div className="mx-auto">
-                    <DevuProjectShowcase />
+                    <TuneRipShowcase />
                 </div>
             </section>
 
-            <section id="takeaways" className="text-center h-[400px] w-[800px] mx-auto">
+            <section id="howItWorks" className="text-center h-[400px] w-[800px] mx-auto">
                 <div className="mx-auto">
-                    <div className="text-[40px] ">Takeaways:</div>
-                    <div className="mt-[10px]">{"Working on this project was an incredibly valuable experience for me. I gained a deeper understanding of the specific industry and learned how to effectively use various tools and techniques to tackle challenging problems. The project also allowed me to improve my collaboration and communication skills, as I worked closely with a diverse team of individuals and effectively conveyed my ideas and solutions. Furthermore, I honed my time management skills and learned how to prioritize tasks and manage my workload in a fast-paced environment. Overall, this project was a truly enriching experience that helped me grow both professionally and personally."}</div>
+                    <div className="text-[40px] ">How it works:</div>
+                    <div className="mt-[10px]">{"TuneRip is built with an Electron + Vite + React frontend styled using Tailwind CSS, and a Python Flask backend connected to a MongoDB database via PyMongo. The stack enables a fast, responsive desktop experience with seamless data handling and persistent storage."}</div>
+                    
+                    <div className="text-[40px] mt-[40px] ">Whats next?</div>
+                    <div className="mt-[10px]">{"I'm currently exploring ways to integrate AI to automatically parse and embed lyrics into MP3 metadata, making them accessible in music players that support lyric display. Upcoming features also include a filter system to skip unwanted tracks before downloading and tools to edit previously saved files so that users can chaneg album art, title, genre, and artist information."}</div>
                     <div className="mt-[10px]">{"Explore our project by visiting the "}{<a href="https://github.com/UBAutograding/devU-api">Github Repository!</a>}</div>
                 </div>
-            </section> */}
+            </section>
+
+
+                <div className='h-[50px]'></div>
 
         </div>
     )
