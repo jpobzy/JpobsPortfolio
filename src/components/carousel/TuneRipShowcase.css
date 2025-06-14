@@ -1,5 +1,6 @@
 .process .carousel-control-prev {
   left: 300px; /* Push further to the left */
+  color: red
 }
 
 .process .carousel-control-next {
