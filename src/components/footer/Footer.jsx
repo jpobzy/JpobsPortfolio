@@ -2,7 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 // import Dock from '../dock/Dock';
-import Dock from '../dock/Dock.jsx'
+import Dock from '../dock/Dock'
 import { VscHome, VscAccount,  VscSettingsGear } from 'react-icons/vsc';
 import { GoRepoForked } from "react-icons/go";
 import { MdOutlinePerson2 } from "react-icons/md";
