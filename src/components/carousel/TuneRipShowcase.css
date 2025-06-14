@@ -1,0 +1,39 @@
+.process .carousel-control-prev {
+  left: 300px; /* Push further to the left */
+}
+
+.process .carousel-control-next {
+  right: 300px; /* Push further to the right */
+}
+
+
+.history .carousel-control-prev {
+  left: 300px; /* Push further to the left */
+}
+
+.history .carousel-control-next {
+  right: 300px; /* Push further to the right */
+}
+
+
+.platforms .carousel-control-prev {
+  left: 300px; /* Push further to the left */
+}
+
+.platforms .carousel-control-next {
+  right: 300px; /* Push further to the right */
+}
+
+
+.carousel-caption .caption{
+    color: black;
+}
+
+
+.mobile .carousel-control-prev {
+  left: 500px; /* Push further to the left */
+}
+
+.mobile .carousel-control-next {
+  right: 500px; /* Push further to the right */
+}

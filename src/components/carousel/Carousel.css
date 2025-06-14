@@ -1,0 +1,16 @@
+.join .carousel-control-prev {
+  left: 300px; /* Push further to the left */
+}
+
+.join .carousel-control-next {
+  right: 300px; /* Push further to the right */
+}
+
+
+.gameplay .carousel-control-prev {
+  left: 300px; /* Push further to the left */
+}
+
+.gameplay .carousel-control-next {
+  right: 300px; /* Push further to the right */
+}
