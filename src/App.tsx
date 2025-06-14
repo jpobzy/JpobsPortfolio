@@ -36,12 +36,6 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-    <section id='socials'>
-      {/* <Footer /> */}
-    </section>
-    
-
-
     <Header/>
 
 

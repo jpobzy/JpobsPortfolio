@@ -89,7 +89,7 @@ function TuneRip(){
             </section> */}
 
 
-            <section id="projectImages" className="h-[700px]">
+            <section id="projectImages" className="h-[800px]">
                 <div className="mx-auto">
                     <TuneRipShowcase />
                 </div>

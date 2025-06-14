@@ -27,12 +27,7 @@ function TechStack(){
                 <p className="w-fit mx-auto">Scala</p>
             </div>
                
-
-            <div className="w-fit mx-auto">
-                <img src={typescriptlogo} alt="TypeScript" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">TypeScript</p>
-            </div>
-               
+           
 
             <div className="w-fit mx-auto">
                 <img src={javascriptlogo} alt="JavaScript" className="mx-auto w-[100px] " />

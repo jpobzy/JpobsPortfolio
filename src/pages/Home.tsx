@@ -7,6 +7,8 @@ import HomeProjects from '../components/projects/HomeProjects'
 import TechStack from '../components/aboutme/TechStack';
 import Hobbys from '../components/aboutme/Hobbys';
 import { useEffect } from 'react';
+import Bio from '../components/aboutme/Bio';
+import Hyperspeed from '../components/hyperspeed/HyperSpeed';
 
 function Home(){
        const myRef = useRef<HTMLDivElement>(null);
@@ -88,14 +90,15 @@ function Home(){
 
 
       <section id='hobbys' className='mt-[100px] mb-[90px]'>
+        <Bio />
+      </section>
+        
+
+      <section id='hobbys' className='mt-[100px] mb-[90px]'>
         <Hobbys />
       </section>
         
-        {/* <p className=' text-xl text-blue-500 underline'>hello world</p> */}
       </div>
-
-      
-  
     </>
     )
     
