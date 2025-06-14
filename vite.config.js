@@ -5,6 +5,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 export default defineConfig({
   plugins: [react(), visualizer()],
    build: {
+    outDir: 'dist', 
     rollupOptions: {
       output: {
         manualChunks(id) {
