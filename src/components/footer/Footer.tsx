@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <div className="">
-            <div className="flex justify-center items-center gap-4 -mb-[90px]">
+            <div className="flex justify-center items-center gap-4 -mb-[50px]">
                 <div className="">
                     <a href="https://github.com/jpobzy" target="_blank" rel="noopener noreferrer">
                     <img src={githublogo} alt="Github" className="w-[50px]" />

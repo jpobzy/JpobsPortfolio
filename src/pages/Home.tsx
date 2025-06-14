@@ -6,7 +6,7 @@ import MiniAboutMe from '../components/aboutme/MiniAboutMe'
 import HomeProjects from '../components/projects/HomeProjects'
 import TechStack from '../components/aboutme/TechStack';
 import Hobbys from '../components/aboutme/Hobbys';
-
+import { useEffect } from 'react';
 
 function Home(){
        const myRef = useRef<HTMLDivElement>(null);
@@ -15,6 +15,13 @@ function Home(){
       const scrolldown = ()=> {
        myRef.current?.scrollIntoView({ behavior: 'smooth' });
       }
+
+      useEffect(() => {
+      if (window.location.hash === '#projects') {
+        const scroll = document.getElementById('projects');
+        scroll?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, []);
     return (
          <>
       <div className='content-center items-center'>
@@ -51,7 +58,7 @@ function Home(){
               </div>  
             </div>
           </div> 
-            <div className='content-center items-center mx-auto -mt-20'  
+            <div className='content-center items-center mx-auto -mt-[120px] mb-[10px]'  
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             onClick={scrolldown}
@@ -71,9 +78,6 @@ function Home(){
           <br></br>
         </div>
         <div className='mt-[20px]'>
-          {/* <MiniAboutMe /> */}
-
-
           <TechStack />
         </div>
        </section>

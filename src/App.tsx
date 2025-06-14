@@ -7,13 +7,18 @@ import ScrollToTop from './components/scrollToTop/ScrollToTop';
 import { BrowserRouter } from 'react-router-dom'
 import FlipArena from './pages/FlipArena';
 import TuneRip from './pages/TuneRip';
+import Header from './components/header/Header';
+import { useEffect } from 'react';
 
 function App() {
-
+    useEffect(() => {
+      if (window.location.hash === '#socials') {
+        const scroll = document.getElementById('socials');
+        scroll?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, []);
   return (
     <div>
-      
-
         <Aurora
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.5}
@@ -31,10 +36,16 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-    <Footer />
+    <section id='socials'>
+      {/* <Footer /> */}
+    </section>
+    
 
 
-    <div style={{ transform: "scaleY(-1)" }} className="pointer-events-none">
+    <Header/>
+
+
+    <div style={{ transform: "scaleY(-1)" }} className="pointer-events-none position: relative;">
       <Aurora
         colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
         blend={0.5}

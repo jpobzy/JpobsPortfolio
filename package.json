@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "flowbite-react patch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/roboto": "^5.2.6",
@@ -17,8 +16,9 @@
     "@tailwindcss/postcss": "^4.1.8",
     "@tailwindcss/vite": "^4.1.8",
     "@uiw/react-json-view": "^2.0.0-alpha.32",
+    "@vscode/codicons": "^0.0.36",
     "bootstrap": "^5.3.6",
-    "framer-motion": "^12.16.0",
+    "framer-motion": "^12.18.1",
     "ogl": "^1.0.11",
     "postcss": "^8.5.4",
     "postprocessing": "^6.37.4",
