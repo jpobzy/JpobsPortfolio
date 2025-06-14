@@ -1,0 +1,1 @@
+import{u as t,r}from"./react-CdjQE9Lx.js";import"./vendor-s-JYBGUH.js";import"./react-dom-EE2IDW0c.js";function s(){const{pathname:o}=t();return r.useEffect(()=>{window.scrollTo(0,0)},[o]),null}export{s as default};
