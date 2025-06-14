@@ -1,22 +1,21 @@
-// import Footer from './components/footer/footer'
-// import Aurora from './components/aurora/Aurora'
-// import Home from './pages/Home.jsx'
-// import DevU from './pages/DevU'
-// import { Routes, Route} from 'react-router-dom';
-// import ScrollToTop from './components/scrollToTop/ScrollToTop';
-// import { BrowserRouter } from 'react-router-dom'
-// import FlipArena from './pages/FlipArena';
-// import TuneRip from './pages/TuneRip';
+import Footer from './components/footer/footer'
+import Aurora from './components/aurora/Aurora'
+import Home from './pages/Home.jsx'
+import DevU from './pages/DevU'
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
+import FlipArena from './pages/FlipArena';
+import TuneRip from './pages/TuneRip';
 import { Suspense, lazy } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-const Home = lazy(() => import('./pages/Home'))
-const DevU = lazy(() => import('./pages/DevU'))
-const FlipArena = lazy(() => import('./pages/FlipArena'))
-const TuneRip = lazy(() => import('./pages/TuneRip'))
-const Footer = lazy(() => import('./components/footer/footer'))
-const Aurora = lazy(() => import('./components/aurora/Aurora'))
-const ScrollToTop = lazy(() => import('./components/scrollToTop/ScrollToTop'))
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
+// const Home = lazy(() => import('./pages/Home'))
+// const DevU = lazy(() => import('./pages/DevU'))
+// const FlipArena = lazy(() => import('./pages/FlipArena'))
+// const TuneRip = lazy(() => import('./pages/TuneRip'))
+// const Footer = lazy(() => import('./components/footer/footer'))
+// const Aurora = lazy(() => import('./components/aurora/Aurora'))
+// const ScrollToTop = lazy(() => import('./components/scrollToTop/ScrollToTop'))
 
 ;
 import { useEffect } from 'react';
@@ -30,7 +29,6 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<div>Loading...</div>}>
         <div>
         <Aurora
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
@@ -41,7 +39,7 @@ function App() {
         </div>
 
 
-        <BrowserRouter>
+        <Router>
           <ScrollToTop/> 
         <Routes>
           <Route path="/" element={<Home />} /> 
@@ -49,7 +47,7 @@ function App() {
           <Route path="/projects/fliparena" element={<FlipArena />} />
           <Route path='/projects/tunerip' element={<TuneRip />}/>
         </Routes>
-      </BrowserRouter>
+      </Router>
 
         <Footer/>
 
@@ -61,7 +59,6 @@ function App() {
             speed={0.5}
           />
       </div>
-    </Suspense>
     </>
   )
 }
