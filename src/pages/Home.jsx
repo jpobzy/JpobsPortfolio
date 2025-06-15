@@ -1,13 +1,14 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import GradientText from '../components/gradient/GradientText'
 import RotatingText from '../components/rotatingText/RotatingText'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+// import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import HomeProjects from '../components/projects/HomeProjects'
 import TechStack from '../components/aboutme/TechStack';
 import Hobbys from '../components/aboutme/Hobbys';
-import { useEffect } from 'react';
 import Bio from '../components/aboutme/Bio';
-
+// import { LottiePlayer } from './Test';
+import Lottie from "lottie-react";
+import animationData from "../assets/test.json";
 
 function Home(){
       //  const myRef = useRef<HTMLDivElement>(null);
@@ -18,12 +19,6 @@ function Home(){
        myRef.current?.scrollIntoView({ behavior: 'smooth' });
       }
 
-    //   useEffect(() => {
-    //   if (window.location.hash === '#projects') {
-    //     const scroll = document.getElementById('projects');
-    //     scroll?.scrollIntoView({ behavior: 'smooth' });
-    //   }
-    // }, []);
     return (
          <>
       <div className='content-center items-center'>
@@ -65,15 +60,15 @@ function Home(){
             onMouseLeave={() => setHovered(false)}
             onClick={scrolldown}
             style={{ width: 100, height: 100 }}>
-              <DotLottieReact
-                
-                src="https://lottie.host/da342e85-a349-437c-831b-eb59c80cb06d/K1Dhm7TYzl.lottie"
-                key={hovered ? 'playing' : 'paused'}  // toggle key to remount
-                        autoplay={hovered}
-                        loop={hovered}
-                style={{ height: '100px', width: '100px' }}
-              />  
-          </div>      
+              <Lottie
+              animationData={animationData}
+              loop={hovered}
+              autoplay={hovered}
+              style={{ height: 100, width: 100 }}
+            />
+
+          
+        </div>      
        </section>
 
 
