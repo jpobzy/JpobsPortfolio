@@ -1,9 +1,9 @@
 {
   "name": "v2",
-  "homepage": "https://jpobzy.github.io/jpobzy.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://jpobzy.github.io/JpobsPortfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

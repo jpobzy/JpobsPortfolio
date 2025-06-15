@@ -1,5 +1,6 @@
 import './HomeProjects.css'
 
+
 function HomeProjects(){
 
     return(
@@ -9,7 +10,7 @@ function HomeProjects(){
 
     
                 <div>
-                    <a href="/projects/tunerip">
+                    <a href="/JpobsPortfolio/tunerip.html">
                         <div className="project tunerip w-[400px] h-[200px] rounded-lg" >
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto" >
                                 TuneRip
@@ -22,7 +23,7 @@ function HomeProjects(){
                 </div>
 
                 <div>
-                    <a href="/projects/fliparena">
+                    <a href="/JpobsPortfolio/fliparena.html">
                         <div className="project fliparena w-[400px] h-[200px] rounded-lg">
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto">
                                 FlipArena
@@ -35,7 +36,7 @@ function HomeProjects(){
                 </div>
 
                 <div>
-                    <a href="/projects/devu">
+                    <a href="/JpobsPortfolio/devu.html">
                         <div className="project devu w-[400px] h-[200px] rounded-lg">
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto">
                                 DevU

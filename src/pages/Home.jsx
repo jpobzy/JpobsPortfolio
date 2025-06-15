@@ -1,7 +1,7 @@
-// import { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import GradientText from '../components/gradient/GradientText'
 import RotatingText from '../components/rotatingText/RotatingText'
-// import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import HomeProjects from '../components/projects/HomeProjects'
 import TechStack from '../components/aboutme/TechStack';
 import Hobbys from '../components/aboutme/Hobbys';
@@ -10,12 +10,13 @@ import Bio from '../components/aboutme/Bio';
 
 
 function Home(){
-    //    const myRef = useRef<HTMLDivElement>(null);
-    //   const [hovered, setHovered] = useState(false)
+      //  const myRef = useRef<HTMLDivElement>(null);
+       const myRef = useRef(null);
+      const [hovered, setHovered] = useState(false)
     
-    //   const scrolldown = ()=> {
-    //    myRef.current?.scrollIntoView({ behavior: 'smooth' });
-    //   }
+      const scrolldown = ()=> {
+       myRef.current?.scrollIntoView({ behavior: 'smooth' });
+      }
 
     //   useEffect(() => {
     //   if (window.location.hash === '#projects') {
@@ -59,27 +60,27 @@ function Home(){
               </div>  
           </div>
           </div> 
-            <div className='content-center items-center mx-auto -mt-[120px] mb-[10px]'  
-            // onMouseEnter={() => setHovered(true)}
-            // onMouseLeave={() => setHovered(false)}
-            // onClick={scrolldown}
+            <div className='content-center items-center mx-auto -mt-[120px] mb-[200px]'  
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            onClick={scrolldown}
             style={{ width: 100, height: 100 }}>
-              {/* <DotLottieReact
+              <DotLottieReact
                 
                 src="https://lottie.host/da342e85-a349-437c-831b-eb59c80cb06d/K1Dhm7TYzl.lottie"
                 key={hovered ? 'playing' : 'paused'}  // toggle key to remount
                         autoplay={hovered}
                         loop={hovered}
                 style={{ height: '100px', width: '100px' }}
-              />   */}
+              />  
           </div>      
        </section>
 
 
        <section id='miniabout' className='h-200 mt-[20]'>
-        {/* <div ref={myRef} className=''>
+        <div ref={myRef} className=''>
           <br></br>
-        </div> */}
+        </div>
         <div className='mt-[20px]'>
           <TechStack />
         </div>

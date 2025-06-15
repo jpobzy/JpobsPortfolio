@@ -18,14 +18,14 @@ function Footer() {
     };
 
   const items = [
-    { icon: <VscHome size={18} />, label: 'Home', onClick: () => goToLink('/') },
+    { icon: <VscHome size={18} />, label: 'Home', onClick: () => goToLink('/JpobsPortfolio/') },
     // { icon: <GoRepoForked size={18} />, label: 'Projects', onClick: () => goToLink('/#projects') },
     // { icon: <MdOutlinePerson2  size={18} />, label: 'Bio', onClick: () => alert('Profile!') },
-    { icon: <FaFileAlt size={18} />, label: 'Resume', onClick: () => goToLink('JoeyPobleteJrResume.pdf')},
+    { icon: <FaFileAlt size={18} />, label: 'Resume', onClick: () => goToLink('/JpobsPortfolio/JoeyPobleteJrResume.pdf')},
 
 
     // { icon: <IoShareSocial size={18} />, label: 'Socials', onClick: () => goToLink('/#socials') },
-    { icon: <FaLinkedin size={18} />, label: 'LinkedIn', onClick: () => goToLink('/https://www.linkedin.com/in/jpobletejr') },
+    { icon: <FaLinkedin size={18} />, label: 'LinkedIn', onClick: () => goToLink('https://www.linkedin.com/in/jpobletejr') },
     { icon: <FaGithub size={18} />, label: 'Github', onClick: () => goToLink('https://github.com/jpobzy') },
     // { icon: <MdOutlineEmail size={18} />, label: 'Email', onClick: () => goToLink('mailto:jnpobletejr@gmail.com') },
   
