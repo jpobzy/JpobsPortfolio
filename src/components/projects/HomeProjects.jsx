@@ -22,6 +22,20 @@ function HomeProjects(){
                     </div>
                 </div>
 
+
+                <div>
+                    <a href="/JpobsPortfolio/syncify.html">
+                        <div className="project syncify w-[400px] h-[200px] rounded-lg" >
+                            <div className="projname w-fit text-[50px] h-[20px] mx-auto" >
+                                Syncify
+                            </div>
+                        </div>
+                    </a>
+                    <div className="mx-auto text-center w-[400px]">
+                        A web app that transfers music playlists between Spotify and Apple Music
+                    </div>
+                </div>
+
                 <div>
                     <a href="/JpobsPortfolio/fliparena.html">
                         <div className="project fliparena w-[400px] h-[200px] rounded-lg">

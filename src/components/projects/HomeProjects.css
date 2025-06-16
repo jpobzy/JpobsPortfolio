@@ -55,3 +55,7 @@
   background-image: url('./images/oldimages/autograder3.png');
 }
 
+
+.syncify::before{
+    background-image: url('./images/syncify/base.png');
+}

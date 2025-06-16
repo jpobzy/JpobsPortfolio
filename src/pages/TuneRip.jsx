@@ -21,7 +21,8 @@ function TuneRip(){
             </div>
 
             <section className="info">
-                <div className="mx-auto mt-[100px] w-[400px] lg:w-[800px] text-center">
+                <div className="mx-auto -mt-[500px] w-[400px] lg:w-[800px] text-center">
+                {/* <div className="mx-auto -mt-[100px] w-[400px] lg:w-[800px] text-center"> */}
                     <div className="text-[40px]  mx-auto ">What is TuneRip?</div>
                     <div className="mt-[10px]">{"TuneRip is a desktop application designed to convert YouTube videos into MP3 files. Users can customize their downloads by choosing their own cover art, track title, genre, and artist information. In addition to downloading individual videos, TuneRip also supports bulk downloading from playlists and entire YouTube channels, making it easy to build and organize a personal music library."}</div>
                 </div>

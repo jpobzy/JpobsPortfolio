@@ -10,8 +10,8 @@ function FlipArena(){
 
     return (
         <div>
-            <div className="h-screen -mt-[400px] flex  flex-col text-center items-center justify-center">
-                <div className="text-[80px] lg:text-[100px] ">
+            <div className="h-screen lg:-mt-[200px] flex  flex-col text-center items-center justify-center">
+                <div className="text-[80px] -mt-[400px] lg:text-[100px] ">
                     <GradientText
                         colors={["#8EC5FC", "#E0C3FC", "#F9F3CC", "#FDCB82", "#FF8BA7", "#A9DEF9"]}
                         animationSpeed={4}
@@ -26,7 +26,8 @@ function FlipArena(){
             </div>
 
             <section className="info">
-                <div className="mx-auto mt-[100px] w-[400px] lg:w-[800px] text-center">
+                {/* <div className="mx-auto mt-[100px] w-[400px] lg:w-[800px] text-center"> */}
+                <div className="mx-auto -mt-[500px] w-[400px] lg:w-[800px] text-center">
                     <div className="text-[40px]  mx-auto ">What is FlipArena?</div>
                     <div className="mt-[10px]">{"FlipArena is an innovative online platform that offers a unique player vs player coin flip toss game. Our goal is to create an engaging and interactive experience for users who enjoy casual gaming with friends or strangers online. With our user-friendly interface and responsive design, players can easily create and join games, track their wins and losses, and compete for the top spot on our leaderboard. We understand that players value fairness and security, which is why we utilize advanced algorithms and encryption protocols to ensure that our game is free from cheating and hacking. Whether you're looking for a quick diversion during your break or a competitive challenge against other players, Le_epic_hax0rs has got you covered."}</div>
                 {/* </div> */}

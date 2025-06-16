@@ -13,6 +13,7 @@ export default defineConfig({
         tunerip: resolve(__dirname, 'tunerip.html'),
         devu: resolve(__dirname, 'devu.html'),
         fliparena: resolve(__dirname, 'fliparena.html'),
+        syncify: resolve(__dirname, 'syncify.html'),
       },
     },
   },

@@ -1,0 +1,19 @@
+@media (min-width: 1024px){
+    .app .carousel-control-prev {
+    left: 300px; /* Push further to the left */
+  }
+
+  .app .carousel-control-next {
+    right: 300px; /* Push further to the right */
+  }
+  
+  .transfer .carousel-control-prev {
+    left: 300px; /* Push further to the left */
+  }
+
+  .transfer .carousel-control-next {
+    right: 300px; /* Push further to the right */
+  }
+
+
+}
