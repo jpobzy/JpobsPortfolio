@@ -36,9 +36,8 @@ import submissionsimg7 from '../../components/projects/images/oldimages/devu/sub
 function DevuProjectShowcase() {
   return (
     <div>
-
         <Tabs className="mt-[90px]">
-            <div className='mx-auto w-[900px]'>
+            <div className='mx-auto lg:w-[900px] text-center'>
             <TabList>
                 <Tab>Creating an account</Tab>
                 <Tab>Testing courses entity</Tab>
@@ -48,12 +47,11 @@ function DevuProjectShowcase() {
             </div>
 
             <TabPanel>
-                <div className="text-[40px] mx-auto text-center mb-[20px]">{"Creating an authenticated user account in Postman:"}</div>
-                <Carousel className='mx-auto w-[900px] ' indicators={true} interval={null}>
+                <Carousel className='mx-auto lg:w-[900px] overflow-visible' indicators={true} interval={null}>
                 <Carousel.Item>
                 <img className="h-full w-full object-contain " src={carosuel1img1}/>
                     <Carousel.Caption className='!mt-[203px]'>
-                        <div className='!-mb-[200px]'>Loging into the API through Postman</div>
+                        <div className='!-mb-[200px]'></div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -76,14 +74,13 @@ function DevuProjectShowcase() {
                 <Carousel.Item>
                     <img src={carosuel1img4}/>
                     <Carousel.Caption>
-                        <div className='!-mb-[200px]'>{"Put the refresh token in the header Authorization: Bearer {{token}}"}</div>
+                        <div className='!-mb-[200px] '>{"Put the refresh token in the header Authorization: Bearer {{token}}"}</div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
             </TabPanel>
             <TabPanel>
-                <div className="text-[40px] mx-auto text-center">{"TESTING COURSES ENTITY:"}</div>
-                <Carousel className='mx-auto w-[900px] ' indicators={true} interval={null}>
+                <Carousel className='mx-auto lg:w-[900px] ' indicators={true} interval={null}>
                 <Carousel.Item>
                 <img className="h-full w-full object-contain " src={coursesimg1}/>
                     <Carousel.Caption className='!mt-[203px]'>
@@ -139,8 +136,7 @@ function DevuProjectShowcase() {
                 </Carousel>
             </TabPanel>
             <TabPanel>
-                <div className="text-[40px] mx-auto text-center ">{"TESTING ASSIGNMENTS ENTITY:"}</div>
-                <Carousel className='mx-auto w-[900px]' indicators={true} interval={null}>
+                <Carousel className='mx-auto lg:w-[900px]' indicators={true} interval={null}>
                     <Carousel.Item>
                     <img className="h-full w-full object-contain " src={assignmentsimg1}/>
                         <Carousel.Caption className='!mt-[203px]'>
@@ -196,8 +192,7 @@ function DevuProjectShowcase() {
                 </Carousel>
             </TabPanel>
             <TabPanel>
-                <div className="text-[40px] mx-auto text-center ">{"TESTING SUBMISSIONS ENTITY:"}</div>
-                <Carousel className='mx-auto w-[900px]' indicators={true} interval={null}>
+                <Carousel className='mx-auto lg:w-[900px] overflow-visible' indicators={true} interval={null}>
                     <Carousel.Item>
                     <img className="h-full w-full object-contain " src={submissionsimg1}/>
                         <Carousel.Caption className='!mt-[203px]'>

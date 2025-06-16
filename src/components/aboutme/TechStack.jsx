@@ -12,58 +12,55 @@ import gitlogo from './techstackicons/git-svgrepo-com.svg'
 function TechStack(){
     
     return(
-        <div>
+        <div className=''>
             <p className="w-fit mx-auto text-[50px]">Tech Stack</p>
-            <div className="grid grid-cols-5 gap-30 mt-10 w-fit mx-auto text-[30px]">
+            <div className="grid grid-cols-2 lg:grid-cols-5 lg:gap-30 gap-[80px] mt-10 w-fit mx-auto text-[30px]">
 
-            <div className="w-fit mx-auto">
-                <img src={pythonlogo} alt="Python" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">Python</p>
-            </div>
-               
+                <div className="w-fit mx-auto">
+                    <img src={pythonlogo} alt="Python" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">Python</p>
+                </div>
+                
 
-            <div className="w-fit mx-auto">
-                <img src={scalalogo} alt="Scala" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">Scala</p>
-            </div>
-               
-           
+                <div className="w-fit mx-auto">
+                    <img src={scalalogo} alt="Scala" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">Scala</p>
+                </div>
+                
+            
 
-            <div className="w-fit mx-auto">
-                <img src={javascriptlogo} alt="JavaScript" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">JavaScript</p>
-            </div>
-
-
-            <div className="w-fit mx-auto">
-                <img src={reactlogo} alt="React" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">React</p>
-            </div>
-               
-            <div className="w-fit mx-auto">
-                <img src={mongodblogo} alt="MongoDB" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">MongoDB</p>
-            </div>
-               
-            <div className="w-fit mx-auto">
-                <img src={dockerlogo} alt="Docker" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">Docker</p>
-            </div>
-               
-
-            <div className="w-fit mx-auto">
-                <img src={nodejslogo} alt="NodeJS" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">NodeJS</p>
-            </div>
-               
-            <div className="w-fit mx-auto">
-                <img src={gitlogo} alt="Git" className="mx-auto w-[100px] " />
-                <p className="w-fit mx-auto">Git</p>
-            </div>
-                              
+                <div className="w-fit mx-auto">
+                    <img src={javascriptlogo} alt="JavaScript" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">JavaScript</p>
+                </div>
 
 
+                <div className="w-fit mx-auto">
+                    <img src={reactlogo} alt="React" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">React</p>
+                </div>
+                
+                <div className="w-fit mx-auto">
+                    <img src={mongodblogo} alt="MongoDB" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">MongoDB</p>
+                </div>
+                
+                <div className="w-fit mx-auto">
+                    <img src={dockerlogo} alt="Docker" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">Docker</p>
+                </div>
+                
 
+                <div className="w-fit mx-auto">
+                    <img src={nodejslogo} alt="NodeJS" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">NodeJS</p>
+                </div>
+                
+                <div className="w-fit mx-auto">
+                    <img src={gitlogo} alt="Git" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">Git</p>
+                </div>
+                                
             </div>
         </div>
     )

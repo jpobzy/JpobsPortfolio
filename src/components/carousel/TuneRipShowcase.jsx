@@ -44,15 +44,14 @@ function TuneRipShowcase() {
     <div >
 
         <Tabs className="mt-[90px]">
-            <div className='mx-auto w-[900px]'>
-            <TabList>
-                <Tab>Download Process</Tab>
-                <Tab>Database</Tab>
-                <Tab>Tracks download history</Tab>
-                <Tab>Track in other platforms</Tab>
-                <Tab>Track on mobile</Tab> 
-
-            </TabList>                
+            <div className='mx-auto text-center lg:w-[900px]'>
+                <TabList>
+                    <Tab>Download Process</Tab>
+                    <Tab>Database</Tab>
+                    <Tab>Tracks download history</Tab>
+                    <Tab>Track in other platforms</Tab>
+                    <Tab>Track on mobile</Tab> 
+                </TabList>                
             </div>
 
             <TabPanel>
@@ -61,14 +60,14 @@ function TuneRipShowcase() {
                     <Carousel.Item>
                         <img src={shrunkHomeWindow} className='mx-auto w-[600px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Select a user or add a new one"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>{"Select a user or add a new one"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <img className='mx-auto w-[1200px]' src={adjustDownloadSettings}/>
-                        <Carousel.Caption className='!mt-[203px]'>
-                            <div className='!-mb-[200px]'>Optional setting to change download settings</div>
+                    <img className='mx-auto lg:w-[1200px]' src={adjustDownloadSettings}/>
+                        <Carousel.Caption className=''>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>Optional setting to change download settings</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -76,7 +75,7 @@ function TuneRipShowcase() {
                     <Carousel.Item>
                         <img src={chooseAlbumCover} className='mx-auto w-[600px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>Choose an album cover for the track to have or upload your own</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>Choose an album cover for the track to have or upload your own</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -85,7 +84,7 @@ function TuneRipShowcase() {
                     <Carousel.Item>
                         <img src={downloadShowcase1} className='mx-auto w-[700px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"What the download screen will look like (still in progress)"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>{"What the download screen will look like (still in progress)"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -94,7 +93,7 @@ function TuneRipShowcase() {
                     <Carousel.Item>
                         <img src={downloadShowcase2} className='mx-auto w-[700px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"New version"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]]'>{"New version"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -108,7 +107,7 @@ function TuneRipShowcase() {
                         </div>
                         <div className='mb-[0px]'>
                             <Carousel.Caption className=''>
-                                <div className='-mb-[10px]'>{"What tracks look like in the database"}</div>
+                                <div className='lg:-mb-[100px] -mb-[30px]'>{"What tracks look like in the database"}</div>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>                    
@@ -130,19 +129,19 @@ function TuneRipShowcase() {
                         <img src={tracksDownloadHistory2} className="mx-auto overflow-visible w-[1200px]" />
                     </div>
                         <Carousel.Caption className=''>
-                            <div className='!-mb-[200px]'>{"Download history in full screen"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>{"Download history in full screen"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={tracksDownloadHistory1} className='mx-auto w-[700px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Only 1 track downloaded"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>{"Only 1 track downloaded"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={tracksDownloadHistory3} className='mx-auto w-[700px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'></div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'></div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -155,19 +154,19 @@ function TuneRipShowcase() {
                         <img src={trackInAppleMusic} className="mx-auto overflow-visible w-[1200px]" />
                     </div>
                         <Carousel.Caption className=''>
-                            <div className='!-mb-[200px] caption'>{"Apple Music"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px] caption'>{"Apple Music"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={trackInSpotify} className='mx-auto w-[1200px]'/>
                         <Carousel.Caption>
-                            <div className='!-mb-[200px]'>{"Spotify"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px]'>{"Spotify"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={trackInMP3Tag} className='mx-auto w-[1000px]'/>
                         <Carousel.Caption>
-                            <div className='-mb-[20px] caption'>{"MP3 Tag (MP3 file editor)"}</div>
+                            <div className='lg:-mb-[100px] -mb-[30px] caption'>{"MP3 Tag (MP3 file editor)"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -204,9 +203,6 @@ function TuneRipShowcase() {
                             <div className='!-mb-[200px] '>{"Track playing in Apple Music"}</div>
                         </Carousel.Caption>
                     </Carousel.Item>
-
-
-
                 </Carousel>
             </TabPanel>
 

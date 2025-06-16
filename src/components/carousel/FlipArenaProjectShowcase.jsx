@@ -34,7 +34,7 @@ function FlipArenaProjectShowcase() {
   return (
     <div>
         <Tabs className="mt-[90px]">
-            <div className='mx-auto w-[900px]'>
+            <div className='mx-auto lg:w-[900px] text-center'>
                 <div className="text-[40px] mx-auto text-center mb-[20px]">{"App functionality:"}</div>
             <TabList>
                 <Tab>Logging in</Tab>
@@ -45,10 +45,9 @@ function FlipArenaProjectShowcase() {
             </div>
 
             <TabPanel>
-                <div className="text-[40px] mx-auto text-center mb-[20px]">{"Creating an authenticated user account in Postman:"}</div>
-                <Carousel className='mx-auto w-[900px] overflow-visible' indicators={true} interval={null}>
+                <Carousel className='mx-auto lg:w-[900px] overflow-visible' indicators={true} interval={null}>
                     <Carousel.Item>
-                        <img className="mx-auto scale-[1.25]" src={login1} />
+                        <img className="mx-auto lg:scale-[1.25]" src={login1} />
                         <Carousel.Caption className="!mt-[203px]">
                             <div className="!-mb-[200px]">Landing page</div>
                         </Carousel.Caption>

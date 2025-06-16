@@ -23,17 +23,17 @@ function Home(){
          <>
       <div className='content-center items-center'>
        <section id='home'>
-        <div className="h-screen -mt-50 flex flex-col   items-center justify-center">
-          <div className="text-[100px] flex items-center">
-            <p className="mr-3">Hi, I'm</p>
-            <GradientText
-              colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-              animationSpeed={3}
-              showBorder={false}
-              className="custom-class"
-            >
-              Joey
-            </GradientText>
+        <div className="h-screen -mt-[200px] flex  flex-col  items-center justify-center">
+          <div className="text-[80px]  lg:text-[100px] flex items-center ">
+            <p className="mr-3 mt-3">Hi, I'm</p>
+              <GradientText
+                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                animationSpeed={3}
+                showBorder={false}
+                className="custom-class"
+              >
+                Joey
+              </GradientText>
           </div>
           <div className='flex '>
             <div className='mt-2 text-[26px]' >
@@ -42,7 +42,7 @@ function Home(){
           <div className='text-[25px]'>
             <RotatingText
                 texts={['Software Developer', 'Software Engineer', 'Backend Developer', 'Full stack Developer!']}
-                mainClassName="px-2 sm:px-2 md:px-3 bg-black-300 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+                mainClassName="px-2 bg-black-300 text-white overflow-hidden py-2  justify-center rounded-lg"
                 staggerFrom={"last"}
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
@@ -66,19 +66,20 @@ function Home(){
               autoplay={hovered}
               style={{ height: 100, width: 100 }}
             />
-
-          
         </div>      
        </section>
 
 
-       <section id='miniabout' className='h-200 mt-[20]'>
-        <div ref={myRef} className=''>
-          <br></br>
-        </div>
-        <div className='mt-[20px]'>
-          <TechStack />
-        </div>
+
+
+
+       <section id='miniabout' className=' mt-[20]'>
+          <div ref={myRef} className=''>
+            <br></br>
+          </div>
+          <div className='mt-[20px]'>
+            <TechStack />
+          </div>
        </section>
 
        <section id='projects'>

@@ -10,8 +10,8 @@ function FlipArena(){
 
     return (
         <div>
-            <div className="mb-[200px]">
-                <div className="   text-[150px] ml-[50px] -mt-[30px]">
+            <div className="h-screen -mt-[400px] flex  flex-col text-center items-center justify-center">
+                <div className="text-[80px] lg:text-[100px] ">
                     <GradientText
                         colors={["#8EC5FC", "#E0C3FC", "#F9F3CC", "#FDCB82", "#FF8BA7", "#A9DEF9"]}
                         animationSpeed={4}
@@ -26,16 +26,16 @@ function FlipArena(){
             </div>
 
             <section className="info">
-                <div className="mx-auto mt-[300px] w-[800px] text-center">
+                <div className="mx-auto mt-[100px] w-[400px] lg:w-[800px] text-center">
                     <div className="text-[40px]  mx-auto ">What is FlipArena?</div>
                     <div className="mt-[10px]">{"FlipArena is an innovative online platform that offers a unique player vs player coin flip toss game. Our goal is to create an engaging and interactive experience for users who enjoy casual gaming with friends or strangers online. With our user-friendly interface and responsive design, players can easily create and join games, track their wins and losses, and compete for the top spot on our leaderboard. We understand that players value fairness and security, which is why we utilize advanced algorithms and encryption protocols to ensure that our game is free from cheating and hacking. Whether you're looking for a quick diversion during your break or a competitive challenge against other players, Le_epic_hax0rs has got you covered."}</div>
-                </div>
+                {/* </div> */}
 
-                <div className="mt-[60px]  mx-auto w-[900px] text-center">
+                {/* <div className="mt-[60px]  mx-auto w-[900px] text-center"> */}
                     <div className="mt-[100px] text-[40px] mx-auto ">Overview</div>
                     <div className="mt-[10px] mb-[20px]">{"The goal of my web applications course project was to design and develop a fully-functional website that incorporates websockets, a database, and user profile features. To achieve this, my team and I decided to use the Flask web framework and Pymongo to communicate with a MongoDB server. As a key contributor to the project, I focused on optimizing the website's use of cookies and collaborated closely with my team members to create, test, and refine them. I also provided support to my colleagues in their respective areas of development to ensure that the project was executed flawlessly. Overall, our team successfully delivered a high-quality web application that met all of the project's requirements."}</div>
                     
-                    <div className="w-[900px] mx-auto mt-[100px] mb-[100px]">
+                    <div className=" mx-auto mt-[100px] mb-[100px] ">
                                 <img src={homeImg} />
                     </div>     
 
@@ -62,13 +62,13 @@ function FlipArena(){
 
                 </div>
 
-                <div className="mx-auto text-center border-4 border-white rounded-lg  w-[1000px]">
+                <div className="mx-auto text-center border-4 border-white rounded-lg  lg:w-[1000px]">
                     <img src={multiplelobbys} />
                 </div>
             </section>  
 
             <section id="workflow">
-                 <div className="mx-auto mt-[100px] w-[800px] text-center">
+                 <div className="mx-auto mt-[100px] lg:w-[800px] text-center">
                     <div className="mt-[100px] text-[55px] mx-auto ">Creating our web app:</div>
 
 
@@ -79,7 +79,7 @@ function FlipArena(){
 
 
             <section id="testing">
-                <div className="mx-auto text-center w-[800px] mt-[20px] ">
+                <div className="mx-auto text-center lg:w-[800px] mt-[20px] ">
                     <div className="text-[40px] mx-auto ">Developing our game</div>
                     <div className="mt-[10px]">{"For our game we decided to use CSS, HTML, and Javascript for the front end, while using Python, Flask, Flask-SocketIO, pymongo, and MongoDB. For the front end we used css and html to design the web page and javascript to handle the games functionality. On the backend we went with python since we already had knowledge on how to connect and use the MongoDB with Pymongo. We also used Flask and Flask-SocketIO to allow communication between clients and the server in real time as it defines several routes for different pages, such as the index, leaderboard, player profile, about, and contact information."}</div>
                     <div className="text-[40px] mx-auto mt-[20px]">Hosting our game</div>
@@ -100,14 +100,15 @@ function FlipArena(){
                     <ProjectShowcase />
                 </div>
             </section>
-
-            <section id="takeaways" className="text-center h-[400px] w-[800px] mb-[200px] mx-auto">
-                <div className="mx-auto">
+        {/* className="text-center h-[400px] w-[800px] mb-[200px] mx-auto" */}
+            <section id="takeaways" >
+                <div className="mx-auto  w-[400px] lg:w-[800px] text-center">
                     <div className="text-[40px] ">Team collaboration:</div>
                     <div className="mt-[10px]">{"Throughout our project development, we implemented a highly collaborative workflow using regular Discord voice calls. Leveraging the screen-sharing feature, we actively supported each other by providing instant feedback, brainstorming solutions, and troubleshooting challenges in real-time. This interactive approach facilitated prompt issue resolution, ensured aligned efforts, and maintained a consistent development pace. Additionally, we implemented measures to keep each other accountable and minimize distractions, fostering productivity and task-focused work during our voice calls."}</div>
 
                     <div className="text-[40px] mt-[40px]">Takeaways:</div>
                     <div className="mt-[10px]">{"Being part of this project was a valuable learning experience for me. It helped me understand the complexity and challenges involved in developing a web app from scratch. Collaborating with my team through Discord voice calls and screen-sharing taught me the significance of effective communication, providing instant feedback, and resolving issues promptly. I gained hands-on experience in real-time communication, database integration, and front-end design, which broadened my skill set. This project also deepened my understanding of the iterative nature of development, emphasized the importance of teamwork, and allowed me to apply various technologies in a practical setting."}</div>
+                    <div className="mt-[10px]">{"Explore our project by visiting the "}{<a href="https://github.com/jpobzy/FlipArena">Github Repository!</a>}</div>
                 </div>
             </section>
 

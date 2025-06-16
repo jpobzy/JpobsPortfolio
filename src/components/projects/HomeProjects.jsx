@@ -4,9 +4,9 @@ import './HomeProjects.css'
 function HomeProjects(){
 
     return(
-        <div>
+        <div className='mt-[30px]'>
             <p className="w-fit mx-auto text-[50px]">Projects</p>
-            <div className="grid grid-cols-2 gap-10 mt-[40px] w-fit mx-auto">  
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-[30px] w-fit mx-auto">  
 
     
                 <div>
