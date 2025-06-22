@@ -6,11 +6,11 @@ import billiardslogo from './hobbysicons/billiard-svgrepo-com.svg'
 import bowlinglogo from './hobbysicons/bowling-svgrepo-com.svg'
 import grillinglogo from './hobbysicons/grilling-svgrepo-com.svg'
 import cookinglogo from './hobbysicons/cooking-svgrepo-com.svg'
-function Hobbys(){
+function Hobbies(){
     
     return(
         <div>
-            <p className="w-fit mx-auto text-[50px]">Hobbys</p>
+            <p className="w-fit mx-auto text-[50px]">Hobbies</p>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-10 lg:gap-y-20 gap-y-10 mt-10 w-fit mx-auto text-[30px] text-center">
 
                 <div>
@@ -57,5 +57,5 @@ function Hobbys(){
         </div>
     )}
 
-export default Hobbys
+export default Hobbies
  

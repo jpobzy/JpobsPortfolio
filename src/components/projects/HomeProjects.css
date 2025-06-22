@@ -59,3 +59,15 @@
 .syncify::before{
     background-image: url('./images/syncify/base.png');
 }
+
+.github{
+  border-radius: 45px; 
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.github:hover{
+  background-color: #0c55db;
+  transform: scale(1.15);
+  box-shadow: 0 0 20px rgb(190, 191, 192);
+}

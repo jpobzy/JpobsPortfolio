@@ -8,6 +8,7 @@ import mongodblogo from './techstackicons/mongodb-svgrepo-com.svg'
 import dockerlogo from './techstackicons/docker-svgrepo-com.svg'
 import nodejslogo from './techstackicons/nodejs-svgrepo-com.svg'
 import gitlogo from './techstackicons/git-svgrepo-com.svg'
+import tailwindcsslogo from './techstackicons/tailwind-svgrepo-com.svg'
 
 function TechStack(){
     
@@ -41,6 +42,13 @@ function TechStack(){
                 </div>
                 
                 <div className="w-fit mx-auto">
+                    <img src={tailwindcsslogo} alt="Git" className="mx-auto w-[100px] " />
+                    <p className="w-fit mx-auto">Tailwind CSS</p>
+                </div>      
+
+
+
+                <div className="w-fit mx-auto">
                     <img src={mongodblogo} alt="MongoDB" className="mx-auto w-[100px] " />
                     <p className="w-fit mx-auto">MongoDB</p>
                 </div>
@@ -60,7 +68,8 @@ function TechStack(){
                     <img src={gitlogo} alt="Git" className="mx-auto w-[100px] " />
                     <p className="w-fit mx-auto">Git</p>
                 </div>
-                                
+
+
             </div>
         </div>
     )

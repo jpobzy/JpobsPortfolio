@@ -4,9 +4,9 @@ import RotatingText from '../components/rotatingText/RotatingText'
 // import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import HomeProjects from '../components/projects/HomeProjects'
 import TechStack from '../components/aboutme/TechStack';
-import Hobbys from '../components/aboutme/Hobbys';
-import Bio from '../components/aboutme/Bio';
+import Hobbies from '../components/aboutme/Hobbies';
 // import { LottiePlayer } from './Test';
+import Bio from '../components/aboutme/Bio';
 import Lottie from "lottie-react";
 import animationData from "../assets/test.json";
 
@@ -23,7 +23,7 @@ function Home(){
          <>
       <div className='content-center items-center'>
        <section id='home'>
-        <div className="h-screen -mt-[200px] flex  flex-col  items-center justify-center">
+        <div className="h-screen -mt-[200px] flex flex-col  items-center justify-center">
           <div className="text-[80px]  lg:text-[100px] flex items-center ">
             <p className="mr-3 mt-3">Hi, I'm</p>
               <GradientText
@@ -80,20 +80,18 @@ function Home(){
           <div className='mt-[20px]'>
             <TechStack />
           </div>
-       </section>
+          <div className='mt-[100px] mb-[100px] '>
+           <Bio />            
+          </div>
 
+       </section>
        <section id='projects'>
         <HomeProjects />
        </section>
-
-
-      {/* <section id='hobbys' className='mt-[100px] mb-[90px]'>
-        <Bio />
-      </section> */}
         
 
-      <section id='hobbys' className='mt-[100px] mb-[90px]'>
-        <Hobbys />
+      <section id='hobbies' className='mt-[100px] mb-[90px]'>
+        <Hobbies />
       </section>
         
       </div>
