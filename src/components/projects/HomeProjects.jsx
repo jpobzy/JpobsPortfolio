@@ -10,7 +10,7 @@ function HomeProjects(){
 
     
                 <div>
-                    <a href="/JpobsPortfolio/tunerip.html">
+                    <a href="/tunerip.html">
                         <div className="mx-auto project tunerip w-[400px] h-[200px] rounded-lg" >
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto" >
                                 TuneRip
@@ -29,7 +29,7 @@ function HomeProjects(){
 
 
                 <div>
-                    <a href="/JpobsPortfolio/syncify.html">
+                    <a href="/syncify.html">
                         <div className="mx-auto project syncify w-[400px] h-[200px] rounded-lg" >
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto" >
                                 Syncify
@@ -47,7 +47,7 @@ function HomeProjects(){
 
 
                 <div>
-                    <a href="/JpobsPortfolio/fliparena.html">
+                    <a href="/fliparena.html">
                         <div className="mx-auto project fliparena w-[400px] h-[200px] rounded-lg ">
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto">
                                 FlipArena
@@ -65,7 +65,7 @@ function HomeProjects(){
 
 
                 <div>
-                    <a href="/JpobsPortfolio/devu.html">
+                    <a href="/devu.html">
                         <div className="mx-auto project devu w-[400px] h-[200px] rounded-lg">
                             <div className="projname w-fit text-[50px] h-[20px] mx-auto">
                                 DevU
