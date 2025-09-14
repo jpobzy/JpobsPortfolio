@@ -21,11 +21,11 @@ function Home(){
 
     return (
          <>
-      <div className='content-center items-center'>
+      <div className='content-center items-center text-white'>
        <section id='home'>
         <div className="h-screen -mt-[200px] flex flex-col  items-center justify-center">
           <div className="text-[80px]  lg:text-[100px] flex items-center ">
-            <p className="mr-3 mt-3">Hi, I'm</p>
+            <p className=" mr-3 mt-3">Hi, I'm</p>
               <GradientText
                 colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
                 animationSpeed={3}

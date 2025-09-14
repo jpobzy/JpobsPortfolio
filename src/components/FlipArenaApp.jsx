@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-        <div>
+      <div>
         <Aurora
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.5}

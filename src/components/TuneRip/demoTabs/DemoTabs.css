@@ -1,0 +1,13 @@
+.ant-tabs .ant-tabs-tab {
+/* color: gray; */
+    color: white;
+}
+
+.ant-tabs .ant-tabs-nav .ant-tabs-nav-more{
+    color: white;
+}
+
+.ant-tabs-nav {
+  width: 700px;
+   justify-content: center;
+}
